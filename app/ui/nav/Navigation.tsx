@@ -9,9 +9,9 @@ const Navigation = () => {
 				<Logo />
 			</div>
 			<div className="space-x-2">
-				<NavigationLink href="/" text="Projects" />
-				<NavigationLink href="/" text="Experience" />
-				<NavigationLink href="/" text="Contact" />
+				<NavigationLink href="/projects" text="Projects" />
+				<NavigationLink href="/experience" text="Experience" />
+				<NavigationLink href="/contact" text="Contact" />
 			</div>
 		</nav>
 	);

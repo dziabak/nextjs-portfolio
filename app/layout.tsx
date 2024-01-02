@@ -4,10 +4,10 @@ import "./globals.css";
 
 import Navigation from "./ui/nav/Navigation";
 
-const kumbh = Kumbh_Sans({ subsets: ["latin"] });
+const kumbh = Kumbh_Sans({ subsets: ["latin"], weight: ["400", "700"] });
 
 export const metadata: Metadata = {
-	title: "Hey, I'm Grzegorz",
+	title: "Home | GD",
 	description: "Home page of portfolio page",
 };
 

@@ -6,6 +6,7 @@ export type ProjectData = {
 }[];
 
 export type ProjectCardsProps = {
+	id?: string;
 	title: string;
 	description: string;
 	icon: string;
@@ -13,6 +14,7 @@ export type ProjectCardsProps = {
 };
 
 export type ExperienceCardProps = {
+	id?: string;
 	company: string;
 	date: string;
 	description: string;

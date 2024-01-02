@@ -1,7 +1,8 @@
 // INTERNAL IMPORTS
 import ProjectCard from "./ProjectCard";
+import { ProjectCardsProps } from "@/app/lib/types";
 
-const ProjectCardsGrid = ({ data }) => {
+const ProjectCardsGrid = ({ data }: { data: ProjectCardsProps[] }) => {
 	return (
 		<div className="flex flex-col mb-12 space-y-4">
 			{data.map((item) => (

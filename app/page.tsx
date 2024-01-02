@@ -5,7 +5,6 @@ import DetailsLink from "./ui/shared/DetailsLink";
 import Hero from "./ui/hero/Hero";
 import ProjectCardsGrid from "./ui/projects/ProjectCardsGrid";
 import ExperienceCardsGrid from "./ui/experience/ExperienceCardsGrid";
-import Footer from "./ui/footer/Footer";
 
 export default function Home() {
 	return (
@@ -18,7 +17,6 @@ export default function Home() {
 			<ExperienceCardsGrid data={EXPERIENCE_DATA} />
 			<DetailsLink link="/experience" text="Check my full CV →" />
 			<Header text="Contact" />
-			<Footer />
 		</main>
 	);
 }

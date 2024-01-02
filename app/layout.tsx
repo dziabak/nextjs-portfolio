@@ -3,6 +3,7 @@ import { Kumbh_Sans } from "next/font/google";
 import "./globals.css";
 
 import Navigation from "./ui/nav/Navigation";
+import Footer from "./ui/footer/Footer";
 
 const kumbh = Kumbh_Sans({ subsets: ["latin"], weight: ["400", "700"] });
 
@@ -21,6 +22,7 @@ export default function RootLayout({
 			<body className={`${kumbh.className} container bg-c-midnight text-white`}>
 				<Navigation />
 				{children}
+				<Footer />
 			</body>
 		</html>
 	);

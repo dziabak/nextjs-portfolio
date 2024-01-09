@@ -19,7 +19,7 @@ export const FRONTEND_PROJECTS_DATA = [
 	},
 	{
 		id: "3",
-		title: "Entartainment App",
+		title: "Entertainment App",
 		description:
 			"Lightweight Netflix clone with search and bookmarking functionalities.",
 		icon: "entertainment-logo.svg",
@@ -39,50 +39,45 @@ export const FRONTEND_PROJECTS_DATA = [
 
 export const VIDEO_GAME_PROJECTS_DATA = [
 	{
-		id: "1",
+		id: "5",
 		title: "Truck Simulation 19",
-		description:
-			"XXX",
-		icon: "https://mb.cision.com/Public/13470/2642337/8096bf37825a4df8_400x400ar.png",
+		description: "The biggest and the most complex project I've worked on, taking over 1.5 years of development.",
+		icon: "ts19-logo.png",
 		alt: "Truck Simulation 19 logo",
-		link: "#",
+		link: "/projects/truck-simulation-19",
 	},
 	{
-		id: "2",
+		id: "6",
 		title: "Deep Diving Simulator",
-		description:
-			"XXX",
-		icon: "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/990030/ec0535a1254fd96f9afdf1d5f3d015cd8b22159d_thumb.jpg",
+		description: "Slow and relaxing exploration game made in a small team, but with a demanding production schedule.",
+		icon: "dds-logo.jpg",
 		alt: "Deep Diving Simulator logo",
-		link: "#",
+		link: "/projects/deep-diving-simulator",
 	},
 	{
-		id: "3",
+		id: "7",
 		title: "Take Off - The Flight Simulator",
-		description:
-			"XXX",
-		icon: "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/657470/47d657ba2681d5ac5440b5f0260b586c286a70c0_thumb.jpg",
+		description: "Complete conversion and redesign from mobile to PC, made in a team of two.",
+		icon: "takeoff-logo.jpg",
 		alt: "Take Off - The Flight Simulator logo",
-		link: "#",
+		link: "/projects/take-off",
 	},
 ];
 
 export const PERSONAL_PROJECTS_DATA = [
 	{
-		id: "1",
+		id: "8",
 		title: "DESTINY ZERO",
-		description:
-			"XXX",
-		icon: "https://img.itch.zone/aW1nLzI1MTY0MjgucG5n/180x143%23c/gIhq6S.png",
+		description: "Top-down shooter fan game set in Destiny universe, which has over 13 500 views on itch.io.",
+		icon: "dzero-logo.png",
 		alt: "DESTINY ZERO logo",
 		link: "https://gdd.itch.io/destiny-zero",
 	},
 	{
-		id: "2",
+		id: "9",
 		title: "TSUKUYOMI 19XX",
-		description:
-			"XXX",
-		icon: "https://img.itch.zone/aW1nLzQ0MzIyODcucG5n/180x143%23c/QMX4zk.png",
+		description: `Small narrative game made for my favourite annual "A Game By Its Cover" game jam.`,
+		icon: "tsukuyomi-logo.png",
 		alt: "TSUKUYOMI 19XX logo",
 		link: "https://gdd.itch.io/tsukuyomi-19xx",
 	},

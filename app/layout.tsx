@@ -19,7 +19,8 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang="en">
-			<body className={`${kumbh.className} container bg-c-midnight text-white`}>
+			<body
+				className={`${kumbh.className} container flex flex-col justify-between bg-c-midnight text-white min-h-screen`}>
 				<Navigation />
 				{children}
 				<Footer />

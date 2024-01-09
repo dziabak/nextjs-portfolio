@@ -11,7 +11,6 @@ const Navigation = () => {
 			<div className="space-x-2">
 				<NavigationLink href="/projects" text="Projects" />
 				<NavigationLink href="/experience" text="Experience" />
-				{/* <NavigationLink href="/contact" text="Contact" /> */}
 			</div>
 		</nav>
 	);

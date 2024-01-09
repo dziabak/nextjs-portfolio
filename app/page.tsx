@@ -9,7 +9,6 @@ export default function Home() {
 			<Hero />
 			<HomePageProjectsLayout />
 			<HomePageExperienceLayout />
-			{/* <Header text="Contact" /> */}
 		</main>
 	);
 }

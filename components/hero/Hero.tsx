@@ -15,17 +15,20 @@ const Hero = () => {
 			</p>
 			<div className="space-y-4 text-xl opacity-75">
 				<p>
-					I’ve worked as a game designer at Jujubee and QA Lead and Project
+					I’ve worked as Game Designer at Jujubee and FQA Lead and Project
 					Manager at Keywords Studios - now taking my experiences into Frontend
-					Development and React.
+					Development.
 				</p>
 				<p>
-					Throughout my career as a Game Developer, I’ve always been attracted
-					to UI and UX and I was able to translate that into real projects and
-					products.
-				</p>
-				<p>
-					I love telling stories and I sometimes publish my games on itch.io.
+					I love telling stories and sometimes I publish my games on{" "}
+					<a
+						href="https://gdd.itch.io/"
+						target="_blank"
+						rel="noopener"
+						className="text-c-violet hover:text-white">
+						itch.io
+					</a>
+					.
 				</p>
 			</div>
 		</section>

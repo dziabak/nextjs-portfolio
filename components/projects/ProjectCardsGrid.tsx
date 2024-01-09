@@ -12,6 +12,7 @@ const ProjectCardsGrid = ({ data }: { data: ProjectCardsProps[] }) => {
 					link={item.link}
 					title={item.title}
 					key={item.id}
+					alt={item.alt}
 				/>
 			))}
 		</div>

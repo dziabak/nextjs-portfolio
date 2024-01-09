@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# GD's Portfolio
 
-## Getting Started
+Welcome to my personal portfolio! This is a simple website built using Next.js 14 to showcase my projects and experiences.
 
-First, run the development server:
+[It's live here 😎](https://gd-portfolio.vercel.app/)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Table of Contents
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- [Introduction](#introduction)
+- [Projects](#projects)
+- [Experience](#experience)
+- [Contact](#contact)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Introduction
 
-## Learn More
+On the home page, you'll find a brief introduction about me and a short description of my projects and experiences.
 
-To learn more about Next.js, take a look at the following resources:
+## Projects
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The projects page is divided into three sections:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### 1. Training Web Development Projects
 
-## Deploy on Vercel
+Here, you can explore the web development projects I've worked on during my journey to learn front-end web development.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 2. Game Design Projects
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+I've included projects from my experience as a Game Designer working at Polish game studio based in Katowice, Jujubee. Feel free to check them out!
+
+### 3. Personal Projects on itch.io
+
+This section features my personal projects hosted on itch.io. Available projects were made using Game Maker Studio 2 and Bitsy and all of them are playable in a browser. Have a look and play around!
+
+## Experience
+
+In this section, I've outlined my professional experience, focusing on my previous positions working as a Game Designer at Jujubee as well as FQA Lead and FQA Project Manager at Keywords. You can also read about my education, as I've graduated from the first Game Design university course in Poland.
+
+## Contact
+
+Feel free to explore and reach out if you have any questions or would like to connect!
+
+You can also find me on [Twitter](https://twitter.com/gd_cosmonaut) and [LinkedIn](https://www.linkedin.com/in/grzegorz-dabrowski-dev).
+

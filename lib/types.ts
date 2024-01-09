@@ -5,6 +5,7 @@ export type ProjectCardsProps = {
 	icon: string;
 	alt: string;
 	link: string;
+	isRouterLink?: boolean;
 };
 
 export type ExperienceCardProps = {

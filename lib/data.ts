@@ -7,6 +7,7 @@ export const FRONTEND_PROJECTS_DATA = [
 		icon: "feedback-logo.svg",
 		alt: "Product Feedback App logo",
 		link: "https://github.com/dziabak/feedback-app-vite",
+		isRouterLink: false,
 	},
 	{
 		id: "2",
@@ -16,6 +17,7 @@ export const FRONTEND_PROJECTS_DATA = [
 		icon: "devjobs-logo.svg",
 		alt: "Devjobs Web App logo",
 		link: "https://github.com/dziabak/devjobs-web-app",
+		isRouterLink: false,
 	},
 	{
 		id: "3",
@@ -25,6 +27,7 @@ export const FRONTEND_PROJECTS_DATA = [
 		icon: "entertainment-logo.svg",
 		alt: "Entartainment App logo",
 		link: "https://github.com/dziabak/entertainment-app-remake",
+		isRouterLink: false,
 	},
 	{
 		id: "4",
@@ -34,6 +37,7 @@ export const FRONTEND_PROJECTS_DATA = [
 		icon: "photosnap-logo.svg",
 		alt: "Photosnap Service Page logo",
 		link: "https://github.com/dziabak/nextjs-photosnap",
+		isRouterLink: false,
 	},
 ];
 
@@ -41,26 +45,32 @@ export const VIDEO_GAME_PROJECTS_DATA = [
 	{
 		id: "5",
 		title: "Truck Simulation 19",
-		description: "The biggest and the most complex project I've worked on, taking over 1.5 years of development.",
+		description:
+			"The biggest and the most complex project I've worked on, taking over 1.5 years of development.",
 		icon: "ts19-logo.png",
 		alt: "Truck Simulation 19 logo",
 		link: "/projects/truck-simulation-19",
+		isRouterLink: true,
 	},
 	{
 		id: "6",
 		title: "Deep Diving Simulator",
-		description: "Slow and relaxing exploration game made in a small team, but with a demanding production schedule.",
+		description:
+			"Slow and relaxing exploration game made in a small team, but with a demanding production schedule.",
 		icon: "dds-logo.jpg",
 		alt: "Deep Diving Simulator logo",
 		link: "/projects/deep-diving-simulator",
+		isRouterLink: true,
 	},
 	{
 		id: "7",
 		title: "Take Off - The Flight Simulator",
-		description: "Complete conversion and redesign from mobile to PC, made in a team of two.",
+		description:
+			"Complete conversion and redesign from mobile to PC, made in a team of two.",
 		icon: "takeoff-logo.jpg",
 		alt: "Take Off - The Flight Simulator logo",
 		link: "/projects/take-off",
+		isRouterLink: true,
 	},
 ];
 
@@ -68,10 +78,12 @@ export const PERSONAL_PROJECTS_DATA = [
 	{
 		id: "8",
 		title: "DESTINY ZERO",
-		description: "Top-down shooter fan game set in Destiny universe, which has over 13 500 views on itch.io.",
+		description:
+			"Top-down shooter fan game set in Destiny universe, which has over 13 500 views on itch.io.",
 		icon: "dzero-logo.png",
 		alt: "DESTINY ZERO logo",
 		link: "https://gdd.itch.io/destiny-zero",
+		isRouterLink: false,
 	},
 	{
 		id: "9",
@@ -80,6 +92,7 @@ export const PERSONAL_PROJECTS_DATA = [
 		icon: "tsukuyomi-logo.png",
 		alt: "TSUKUYOMI 19XX logo",
 		link: "https://gdd.itch.io/tsukuyomi-19xx",
+		isRouterLink: false,
 	},
 ];
 

@@ -1,5 +1,5 @@
 // INTERNAL IMPORTS
-import { ExperienceCardProps } from "@/app/lib/types";
+import { ExperienceCardProps } from "@/lib/types";
 
 const ExperienceCard = ({
 	company,

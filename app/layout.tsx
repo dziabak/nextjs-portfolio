@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import { Kumbh_Sans } from "next/font/google";
 import "./globals.css";
 
-import Navigation from "./ui/nav/Navigation";
-import Footer from "./ui/footer/Footer";
+import Navigation from "@/components/nav/Navigation";
+import Footer from "@/components/footer/Footer";
 
 const kumbh = Kumbh_Sans({ subsets: ["latin"], weight: ["400", "700"] });
 

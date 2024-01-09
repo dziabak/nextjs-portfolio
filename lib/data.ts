@@ -23,15 +23,8 @@ export const PROJECTS_DATA = [
 		icon: "",
 		link: "#",
 	},
-	// {id: "4",
-	// 	title: "Coffeeroasters Brochure Page",
-	// 	description:
-	// 		"Coffeeroaseters Brochure Page based on the Frontend Mentor challenge, made in React",
-	// 	icon: "",
-	// 	link: "#",
-	// },
 	{
-		id: "5",
+		id: "4",
 		title: "Photosnap Service Page",
 		description:
 			"Photosnap Service Page based on the Frontend Mentor challenge, made in React",

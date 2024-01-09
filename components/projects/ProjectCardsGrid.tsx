@@ -1,6 +1,6 @@
 // INTERNAL IMPORTS
 import ProjectCard from "./ProjectCard";
-import { ProjectCardsProps } from "@/app/lib/types";
+import { ProjectCardsProps } from "@/lib/types";
 
 const ProjectCardsGrid = ({ data }: { data: ProjectCardsProps[] }) => {
 	return (

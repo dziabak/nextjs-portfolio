@@ -1,21 +1,14 @@
-import { PROJECTS_DATA } from "./lib/data";
-import { EXPERIENCE_DATA } from "./lib/data";
-import Header from "./ui/shared/Header";
-import DetailsLink from "./ui/shared/DetailsLink";
-import Hero from "./ui/hero/Hero";
-import ProjectCardsGrid from "./ui/projects/ProjectCardsGrid";
-import ExperienceCardsGrid from "./ui/experience/ExperienceCardsGrid";
+import Header from "@/components/shared/Header";
+import Hero from "@/components/hero/Hero";
+import HomePageProjectsLayout from "@/components/projects/HomePageProjectsLayout";
+import HomePageExperienceLayout from "@/components/experience/HomePageExperienceLayout";
 
 export default function Home() {
 	return (
 		<main>
 			<Hero />
-			<Header text="Projects" />
-			<ProjectCardsGrid data={PROJECTS_DATA} />
-			<DetailsLink link="/projects" text="Check the full list of my projects →" />
-			<Header text="Experience" />
-			<ExperienceCardsGrid data={EXPERIENCE_DATA} />
-			<DetailsLink link="/experience" text="Check my full CV →" />
+			<HomePageProjectsLayout />
+			<HomePageExperienceLayout />
 			<Header text="Contact" />
 		</main>
 	);

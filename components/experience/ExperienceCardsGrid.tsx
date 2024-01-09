@@ -1,6 +1,6 @@
 // INTERNAL IMPORTS
 import ExperienceCard from "./ExperienceCard";
-import { ExperienceCardProps } from "@/app/lib/types";
+import { ExperienceCardProps } from "@/lib/types";
 
 const ExperienceCardsGrid = ({ data }: { data: ExperienceCardProps[] }) => {
 	return (

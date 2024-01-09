@@ -1,5 +1,5 @@
 // INTERNAL IMPORTS
-import { ProjectCardsProps } from "@/app/lib/types";
+import { ProjectCardsProps } from "@/lib/types";
 
 const ProjectCard = ({ title, description, icon, link }: ProjectCardsProps) => {
 	return (

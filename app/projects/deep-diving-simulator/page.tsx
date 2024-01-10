@@ -1,166 +1,189 @@
 import { Metadata } from "next";
+
+import Image from "next/image";
 import Header from "@/components/shared/Header";
+import Subheader from "@/components/shared/Subheader";
+import Title from "@/components/shared/Title";
+
+import dds_01 from "@/assets/dds/dds-01.jpg";
+import dds_02 from "@/assets/dds/dds-02.jpg";
+import dds_03 from "@/assets/dds/dds-03.jpg";
+import dds_04 from "@/assets/dds/dds-04.jpg";
 
 export const metadata: Metadata = {
 	title: "Deep Diving Simulator | GD",
 	description: "Projects page of portfolio page",
 };
 
-<p className="font-bold">Deliveries system</p>;
-
 const Page = () => {
 	return (
 		<div>
-			<Header text="Deep Diving Simulator" />
-
-			<p>
+			<Title text="Deep Diving Simulator" />
+			<p className="text-lg">
 				I joined the team right after the prototyping phase of the project and
 				once it moved to the full-blown production. During the course of the
 				project I had a chance to design many of the features, systems and level
 				for the game and then iterate on and maintain them throughout the whole
-				production process.
-			</p>
-			<Header text="Game Design" />
-
-			{/* !https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e5604e84-8ace-4bbe-b5af-6b939e9832ce/ss_e1cade0ffa5e277ab5286077620beeb67d610c03.1920x1080.jpg */}
-
-			<p>
-				I have set up and maintained majority of the prefabs objects used
-				throughout various systems present in the game. One of my main
-				responsibilities was the set-up of the easy to use and re-usable prefabs
-				for most of the interactive objects in the game:
+				production process. As with all of the projects I was involved in, I was
+				the person responsible for UI implementation.
 			</p>
 
-			<p className="font-bold">
-				Collectible, Destructible and Interactive items
-			</p>
-			<p>
-				Setting up the prefab objects using the logic and script provided by the
-				gameplay programmers.
-			</p>
-			<p>
-				Adjusting the objects and maintaining their variations across the
-				different levels.
-			</p>
-			<p>
-				Working on the solutions based on the nested prefabs system to ensure
-				easy iteration process and fast and efficient changes of the
-				implementation.
-			</p>
-			<p>Enemies and Hazards</p>
-			<p>
-				Adding new variations of the enemies and hazards based on the examples
-				provided by the gameplay programmers.
-			</p>
-			<p className="font-bold">
-				Balancing and fine-tuning the gameplay experience
-			</p>
+			<div className="space-y-8">
+				<Header text="Game Design" />
+				<Image src={dds_01} alt="Video game screenshot showing an underwater scene near coral reef full of fish"/>
+				<p>
+					I have set up and maintained majority of the prefabs objects used
+					throughout various systems present in the game. One of my main
+					responsibilities was the set-up of the easy to use and re-usable
+					prefabs for most of the interactive objects in the game:
+				</p>
 
-			<p>
-				Given the underlying themes of the game and it's focus on the underwater
-				exploration and presenting the sense of being underwater, one of my
-				responsibilities was the fine tuning of all the different aspects of the
-				player character movement controller, such as general speed, speed of
-				ascension and descension as well as other aspects such as oxygen use and
-				sprinting abilities limits. Many of those settings were manually set for
-				each level, to account for various details in level design of particular
-				maps (most importantly vertical and horizontal sizes), to enhance the
-				overall gaming experience.
-			</p>
-			<Header text="Game Balance" />
+				<div className="space-y-2">
+					<Subheader text="Collectible, Destructible and Interactive items" />
+					<li>
+						Setting up the prefab objects using the logic and script provided by
+						the gameplay programmers.
+					</li>
+					<li>
+						Adjusting the objects and maintaining their variations across the
+						different levels.
+					</li>
+					<li>
+						Working on the solutions based on the nested prefabs system to
+						ensure easy iteration process and fast and efficient changes of the
+						implementation.
+					</li>
+				</div>
+				<div className="space-y-2">
+					<Subheader text="Enemies and Hazards" />
+					<li>
+						Adding new variations of the enemies and hazards based on the
+						examples provided by the gameplay programmers.
+					</li>
+				</div>
+				<div className="space-y-2">
+					<Subheader text="Balancing and fine-tuning the gameplay experience" />
+					<li>
+						Given the underlying themes of the game and it&apos;s focus on the
+						underwater exploration and presenting the sense of being underwater,
+						one of my responsibilities was the fine tuning of all the different
+						aspects of the player character movement controller, such as general
+						speed, speed of ascension and descension as well as other aspects
+						such as oxygen use and sprinting abilities limits. Many of those
+						settings were manually set for each level, to account for various
+						details in level design of particular maps (most importantly
+						vertical and horizontal sizes), to enhance the overall gaming
+						experience.
+					</li>
+				</div>
+			</div>
 
-			{/* !https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8ef6e622-a8e7-4dc2-9741-5f53a8f4fb46/ss_65f7d4a5830698c524645bdb6ea9c4bb62b7d243.1920x1080.jpg */}
+			<div className="space-y-8">
+				<Header text="UI/UX Design" />
 
-			<p>
-				The game involved a player progression system to both incentivize and
-				reward the players for their exploration. With each level the player
-				would receive a different upgrade to the general abilities (more oxygen,
-				better decompression handling, faster sprinting) or obtain new and
-				interesting mechanics to be used on the later levels (dynamite, pickaxe,
-				drone).
-			</p>
+				<Image src={dds_04} alt="Video game screenshot showing UI view from a deep-sea robot camera"/>
 
-			<p>
-				My responsibility was to design the player progression system and work
-				on the balancing of the level thresholds and experience values, based on
-				the couple of factors:
-			</p>
-			<p>
-				The experience values for player actions (collecting items, destroying
-				items, helping the wildlife).
-			</p>
-			<p>The number of interactive elements found on the levels.</p>
-			<p>
-				The number of tries the player will need to attempt to finish the level.
-			</p>
-			<p>
-				Fine-tuning between the casual playthrough, not focusing on clearing all
-				game objectives, and completionists looking to max out the game
-				achievements, so that all players find the game progression system fair
-				and rewarding.
-			</p>
-			<Header text="Level Design" />
+				<div className="space-y-2">
+					<p>
+						I was involved throughout the whole implementation stage of the UI
+						and UX design of the game. As the UI designer for the project, my
+						main responsibilities were:
+					</p>
+					<li>Implementing the flows and functionalities of the UI.</li>
+					<li>
+						Requesting, adjusting and working with the art provided by the UI
+						artist.
+					</li>
+					<li>
+						Implementing the solutions using the logic and scripts provided by
+						the UI programmers.
+					</li>
+					<li>
+						Working with the localization files, organizing them and verifying
+						their proper implementation throughout the game.
+					</li>
+				</div>
+			</div>
 
-			{/* ![One of the characteristic spots in the Dragon's Den level which I worked on was featured on the game's Steam page.](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/347f2af9-fb7e-45c4-bd37-a3d91ead9e82/ss_463a0da71d7542ea33008a667596ae02534133f6.1920x1080.jpg) */}
+			<div className="space-y-8">
+				<Header text="Game Balance" />
 
-			{/* One of the characteristic spots in the Dragon's Den level which I worked on was featured on the game's Steam page. */}
+				<Image src={dds_02} alt="Video game screenshot showing an underwater mining"/>
 
-			<p className="font-bold">
-				I was involved in the prototyping, blocking out, finalizing and then
-				maintaining several levels of the game.
-			</p>
+				<p>
+					The game involved a player progression system to both incentivize and
+					reward the players for their exploration. With each level the player
+					would receive a different upgrade to the general abilities (more
+					oxygen, better decompression handling, faster sprinting) or obtain new
+					and interesting mechanics to be used on the later levels (dynamite,
+					pickaxe, drone).
+				</p>
 
-			<p>
-				I was involved in the full creation of three levels: Pirate's Nest,
-				Silent Cove and Dragon's Den. For those levels, I've started working on
-				them right from the initial block out all the way up to their final
-				stages for the releasable status. My main focus as a level designer was
-				to guide the players through the levels, providing them with challenges
-				and interesting locations to explore. On each level, the player would
-				encounter some dangers and hazards in the forms of sharks, sea urchins,
-				fishing nets or strong water currents as well as had a moment of
-				peaceful exploration and collecting sea shells and sunken treasures.
-			</p>
-			<p>
-				In the final stages of the production I was the also responsible for the
-				fine-tuning and upkeep of majority of the levels of the game. My main
-				duties were mainly, but not limited to:
-			</p>
-			<p>
-				Ensuring that all functionalities are in order and the levels can be
-				completed.
-			</p>
-			<p>
-				All mechanics and features are implemented properly and in-line with the
-				game design.
-			</p>
-			<p>
-				The balance of the levels is maintained and the overall gameplay
-				experience is enjoyable for any type of player.
-			</p>
-			<Header text="UI/UX Design" />
+				<div className="space-y-2">
+					<p>
+						My responsibility was to design the player progression system and
+						work on the balancing of the level thresholds and experience values,
+						based on the couple of factors:
+					</p>
+					<li>
+						The experience values for player actions (collecting items,
+						destroying items, helping the wildlife).
+					</li>
+					<li>The number of interactive elements found on the levels.</li>
+					<li>
+						The number of tries the player will need to attempt to finish the
+						level.
+					</li>
+					<li>
+						Fine-tuning between the casual playthrough, not focusing on clearing
+						all game objectives, and completionists looking to max out the game
+						achievements, so that all players find the game progression system
+						fair and rewarding.
+					</li>
+				</div>
+			</div>
 
-			{/* !https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4023b271-9f8c-4788-9646-114fe1f14d97/ss_10625e7af5dbf77d38b96a068cde71e3b1fee205.1920x1080.jpg */}
-
-			<p>
-				I was involved throughout the whole implementation stage of the UI and
-				UX design of the game. As the UI designer for the project, my main
-				responsibilities were:
-			</p>
-
-			<p>Implementing the flows and functionalities of the UI.</p>
-			<p>
-				Requesting, adjusting and working with the art provided by the UI
-				artist.
-			</p>
-			<p>
-				Implementing the solutions using the logic and scripts provided by the
-				UI programmers.
-			</p>
-			<p>
-				Working with the localization files, organizing them and verifying their
-				proper implementation throughout the game.
-			</p>
+			<div className="space-y-8">
+				<Header text="Level Design" />
+				<div>
+					<Image src={dds_03} alt="Video game screenshot showing a sunken underwater Japanese shrine" className="mb-4" />
+					<p className="text-sm opacity-75">
+						One of the characteristic spots in the Dragon&apos;s Den level which I
+						worked on was featured on the game&apos;s Steam page.
+					</p>
+				</div>
+				<p>
+					I was involved in the full creation of three levels: Pirate&apos;s Nest,
+					Silent Cove and Dragon&apos;s Den. For those levels, I&apos;ve started working
+					on them right from the initial block out all the way up to their final
+					stages for the releasable status. My main focus as a level designer
+					was to guide the players through the levels, providing them with
+					challenges and interesting locations to explore. On each level, the
+					player would encounter some dangers and hazards in the forms of
+					sharks, sea urchins, fishing nets or strong water currents as well as
+					had a moment of peaceful exploration and collecting sea shells and
+					sunken treasures.
+				</p>
+				<div className="space-y-2">
+					<p>
+						In the final stages of the production I was the also responsible for
+						the fine-tuning and upkeep of majority of the levels of the game. My
+						main duties were mainly, but not limited to:
+					</p>
+					<li>
+						Ensuring that all functionalities are in order and the levels can be
+						completed.
+					</li>
+					<li>
+						All mechanics and features are implemented properly and in-line with
+						the game design.
+					</li>
+					<li>
+						The balance of the levels is maintained and the overall gameplay
+						experience is enjoyable for any type of player.
+					</li>
+				</div>
+			</div>
 		</div>
 	);
 };

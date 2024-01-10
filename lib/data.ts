@@ -46,7 +46,7 @@ export const VIDEO_GAME_PROJECTS_DATA = [
 		id: "5",
 		title: "Truck Simulation 19",
 		description:
-			"The biggest and the most complex project I've worked on, taking over 1.5 years of development.",
+			"The biggest and the most complex project I've worked on spanning over 1.5 years of development.",
 		icon: "ts19-logo.png",
 		alt: "Truck Simulation 19 logo",
 		link: "/projects/truck-simulation-19",
@@ -66,7 +66,7 @@ export const VIDEO_GAME_PROJECTS_DATA = [
 		id: "7",
 		title: "Take Off - The Flight Simulator",
 		description:
-			"Complete conversion and redesign from mobile to PC, made in a team of two.",
+			"Complete conversion and redesign from mobile to PC achieved in a team of just two developers.",
 		icon: "takeoff-logo.jpg",
 		alt: "Take Off - The Flight Simulator logo",
 		link: "/projects/take-off",
@@ -79,7 +79,7 @@ export const PERSONAL_PROJECTS_DATA = [
 		id: "8",
 		title: "DESTINY ZERO",
 		description:
-			"Top-down shooter fan game set in Destiny universe, which has over 13 500 views on itch.io.",
+			"Top-down shooter fan game set in Destiny universe amassing over 13 500 views on itch.io.",
 		icon: "dzero-logo.png",
 		alt: "DESTINY ZERO logo",
 		link: "https://gdd.itch.io/destiny-zero",

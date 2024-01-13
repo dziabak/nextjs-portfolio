@@ -13,4 +13,5 @@ export type ExperienceCardProps = {
 	company: string;
 	date: string;
 	description: string[];
+	isListItem: boolean;
 };

@@ -11,6 +11,7 @@ const ExperienceCardsGrid = ({ data }: { data: ExperienceCardProps[] }) => {
 					date={item.date}
 					description={item.description}
 					key={item.id}
+					isListItem={item.isListItem}
 				/>
 			))}
 		</div>

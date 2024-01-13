@@ -5,6 +5,7 @@ const ExperienceCard = ({
 	company,
 	date,
 	description,
+	isListItem,
 }: ExperienceCardProps) => {
 	return (
 		<div>
@@ -13,11 +14,18 @@ const ExperienceCard = ({
 				<span className="ml-2 text-lg font-normal opacity-75">{date}</span>
 			</p>
 			<div className="space-y-2">
-				{description.map((item) => (
-					<p className="opacity-75" key={item}>
-						{item}
-					</p>
-				))}
+				{!isListItem &&
+					description.map((item) => (
+						<p className="opacity-75" key={item}>
+							{item}
+						</p>
+					))}
+				{isListItem &&
+					description.map((item) => (
+						<li className="opacity-75" key={item}>
+							{item}
+						</li>
+					))}
 			</div>
 		</div>
 	);

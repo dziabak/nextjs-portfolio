@@ -12,5 +12,5 @@ export type ExperienceCardProps = {
 	id?: string;
 	company: string;
 	date: string;
-	description: string;
+	description: string[];
 };

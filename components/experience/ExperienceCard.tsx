@@ -12,7 +12,13 @@ const ExperienceCard = ({
 				{company}
 				<span className="ml-2 text-lg font-normal opacity-75">{date}</span>
 			</p>
-			<p className="opacity-75">{description}</p>
+			<div className="space-y-2">
+				{description.map((item) => (
+					<p className="opacity-75" key={item}>
+						{item}
+					</p>
+				))}
+			</div>
 		</div>
 	);
 };

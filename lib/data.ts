@@ -136,7 +136,7 @@ export const EXPERIENCE_TECHNICAL_SKILLS_DATA = [
 		company: "TECHNICAL SKILLS",
 		date: "",
 		description: [
-			"React, TypeScript, JavaScript, Next.js, Firebase, SQL, Tailwind, HTML, CSS",
+			"React, TypeScript, Tailwind, Next.js, Firebase, SQL, HTML, CSS, JavaScript",
 			"Jest, JIRA, Redmine, Mantis, TestRail, Xcode, Sourcetree, GitHub, Figma, Confluence, Trello, Notion",
 			"Unity, Game Maker Studio 2, Unreal Engine 4",
 		],

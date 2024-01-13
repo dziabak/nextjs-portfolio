@@ -18,7 +18,6 @@ export const metadata: Metadata = {
 const Page = () => {
 	return (
 		<div>
-			{/* <Header text="TECHNICAL SKILLS" /> */}
 			<ExperienceCardsGrid data={EXPERIENCE_TECHNICAL_SKILLS_DATA} />
 			<Header text="EXPERIENCE" />
 			<ExperienceCardsGrid data={EXPERIENCE_WORK_KWS_DATA} />

@@ -6,7 +6,7 @@ export const FRONTEND_PROJECTS_DATA = [
 			"Project management app with adding and editing feedback, advanced filtering and comments.",
 		icon: "feedback-logo.svg",
 		alt: "Product Feedback App logo",
-		link: "https://github.com/dziabak/feedback-app-vite",
+		link: "https://github.com/dziabak/product-feedback-app",
 		isRouterLink: false,
 	},
 	{
@@ -102,7 +102,7 @@ export const EXPERIENCE_DATA = [
 		company: "Keywords Studios",
 		date: "(2019 - 2023)",
 		description: [
-			"Only a month after the FQA office was opened in Katowice, I joined the team of around 40 testers and throughout 4 years I’ve helped to build our location to become one of the largest FQA outsource studios in Europe.",
+			"Only a month after the FQA office was opened in Katowice, I joined the team of around 40 testers and throughout 4 years I’ve helped to build our location to become one of the largest FQA video game outsource studios in Europe.",
 			"As an FQA Lead and Project Manager I've worked with our partners and clients to provide the best testing strategies for their games and execute them.",
 			"I’ve worked on numerous high-profile projects, such as THE FINALS, Outriders: Worldslayer or The Medium",
 		],
@@ -114,7 +114,8 @@ export const EXPERIENCE_DATA = [
 		date: "(2017 - 2019)",
 		description: [
 			"During my time at the studio I’ve worked on three projects: Truck Simulation 19, Deep Diving Simulator and Take Off: The Flight Simulator.",
-			"As a Game Designer I was able to work on variety of features and areas of the projects - from typical game design work to working on the UI and UX, all the way until post-release support.",
+			"As a Game Designer I was able to work on variety of features and areas of the projects - from typical game design work, all the way until post-release support.",
+			"As my standout role at the studio, I was working as a UI and UX designer on all of my projects. Working alongside UI artist and UI programmer, this was the epxerience which later turned into my love for frontend development."
 		],
 		isListItem: false,
 	},
@@ -123,7 +124,7 @@ export const EXPERIENCE_DATA = [
 		company: "Interactive Entertainment Design - University Course",
 		date: "(2012 - 2017)",
 		description: [
-			"I’ve finished the first Game Design course in Poland with a master’s degree.",
+			"I’ve finished the first Game Design course in Poland (Interactive Entertainment Design and Games and Software Localization at Uniwersytet Śląski w Katowicach) with a master’s degree.",
 			"Extremely valuable experience, it gave me a handful of critical and creative thinking skills as well as design oriented approach to product development and technical knowledge necessary for working with video game engines, such as Unity and Unreal Engine 4.",
 		],
 		isListItem: false,
@@ -137,8 +138,8 @@ export const EXPERIENCE_TECHNICAL_SKILLS_DATA = [
 		date: "",
 		description: [
 			"React, TypeScript, Tailwind, Next.js, Firebase, SQL, HTML, CSS, JavaScript",
-			"Jest, JIRA, Redmine, Mantis, TestRail, Xcode, Sourcetree, GitHub, Figma, Confluence, Trello, Notion",
-			"Unity, Game Maker Studio 2, Unreal Engine 4",
+			"JIRA, Redmine, Mantis, TestRail, Xcode, Sourcetree, GitHub, Figma, Confluence, Trello, Notion",
+			"Unity (with C#), Game Maker Studio 2, Unreal Engine 4",
 		],
 		isListItem: true,
 	},
@@ -151,7 +152,7 @@ export const EXPERIENCE_WORK_KWS_DATA = [
 		date: "(July 2022 - July 2023)",
 		description: [
 			"Reworked data-gathering workflow and cut down the smoke testing and walkthrough times during a vertical slice phase of the project",
-			"Line-managed a team of 8 lead and senior testers to accommodate 4 different concurrent projects",
+			"Line-managed a team of 3 leads and 5 senior testers to accommodate 4 different concurrent projects",
 			"Working closely with developers to prepare and execute testing plans, high-level client communication and project scheduling, overlooking and assisting multiple testing teams and projects, preparing quotes, spend reports, invoices and business reports",
 		],
 		isListItem: true,
@@ -188,7 +189,7 @@ export const EXPERIENCE_WORK_JUJUBEE_DATA = [
 		description: [
 			"Truck Simulation 19 (Unity; iOS, Android): Level and game design, UI and UX design, game balance and monetization scheme, working with localization files; working closely with the publisher’s QA Team and outsourced QA Teams to submit, track and resolve issues; preparing, certifying and deploying development and release versions; preparing updates and patch notes",
 			"Take Off: The Flight Simulator (Unity; PC): Full conversion development from mobile platforms to PC, UI and UX redesign, rebalancing, additional game design, quality, functionality and localization testing",
-			"Deep Diving Simulator (Unity; PC): Level and game design, game balance, UI and UX design, working with localization files",
+			"Deep Diving Simulator (Unity; PC): Level and game design, UI and UX design, game balance, working with localization files",
 		],
 		isListItem: true,
 	},

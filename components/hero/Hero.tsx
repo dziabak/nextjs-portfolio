@@ -19,6 +19,7 @@ const Hero = () => {
 					Manager at Keywords Studios - now taking my experiences into Frontend
 					Development.
 				</p>
+				<p>Currently diving deeper into Next.js 14 and learning C# with Unity.</p>
 				<p>
 					I love telling stories and sometimes I publish my games on{" "}
 					<a

@@ -1,11 +1,11 @@
 export const FRONTEND_PROJECTS_DATA = [
 	{
 		id: "1",
-		title: "Product Feedback App",
+		title: "Feedback Nexus",
 		description:
 			"Project management app with adding and editing feedback, advanced filtering and comments.",
 		icon: "feedback-logo.svg",
-		alt: "Product Feedback App logo",
+		alt: "Feedback Nexus logo",
 		link: "https://github.com/dziabak/product-feedback-app",
 		isRouterLink: false,
 	},

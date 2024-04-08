@@ -115,7 +115,7 @@ export const EXPERIENCE_DATA = [
 		description: [
 			"During my time at the studio I’ve worked on three projects: Truck Simulation 19, Deep Diving Simulator and Take Off: The Flight Simulator.",
 			"As a Game Designer I was able to work on variety of features and areas of the projects - from typical game design work, all the way until post-release support.",
-			"As my standout role at the studio, I was working as a UI and UX designer on all of my projects. Working alongside UI artist and UI programmer, this was the epxerience which later turned into my love for frontend development."
+			"As my standout role at the studio, I was working as a UI and UX designer on all of my projects. Working alongside UI artist and UI programmer, this was the epxerience which later turned into my love for frontend development.",
 		],
 		isListItem: false,
 	},
@@ -137,9 +137,9 @@ export const EXPERIENCE_TECHNICAL_SKILLS_DATA = [
 		company: "TECHNICAL SKILLS",
 		date: "",
 		description: [
-			"React, TypeScript, Tailwind, Next.js, Firebase, SQL, HTML, CSS, JavaScript",
+			"React, TypeScript, Next.js, Tailwind, Firebase, SQL, Redux, Zustand, HTML, CSS, JavaScript",
 			"JIRA, Redmine, Mantis, TestRail, Xcode, Sourcetree, GitHub, Figma, Confluence, Trello, Notion",
-			"Unity (with C#), Game Maker Studio 2, Unreal Engine 4",
+			"Unity (with basic C#), Game Maker Studio 2 (with GML), Unreal Engine 4/5 (with Blueprints)",
 		],
 		isListItem: true,
 	},
@@ -151,7 +151,6 @@ export const EXPERIENCE_WORK_KWS_DATA = [
 		company: "QA Project Manager / Keywords Studios",
 		date: "(July 2022 - July 2023)",
 		description: [
-			"Reworked data-gathering workflow and cut down the smoke testing and walkthrough times during a vertical slice phase of the project",
 			"Line-managed a team of 3 leads and 5 senior testers to accommodate 4 different concurrent projects",
 			"Working closely with developers to prepare and execute testing plans, high-level client communication and project scheduling, overlooking and assisting multiple testing teams and projects, preparing quotes, spend reports, invoices and business reports",
 		],
@@ -162,7 +161,8 @@ export const EXPERIENCE_WORK_KWS_DATA = [
 		company: "FQA Lead / Keywords Studios",
 		date: "(July 2019 - December 2019)",
 		description: [
-			"Won a pilot with a team of 3 testers, ultimately growing it to a team of 40+ and released a game to favorable reviews (Outriders: Worlslayer)",
+			"Won a pilot with a team of 3 testers, ultimately growing it to a team of 40+ and released a game to favorable reviews (Outriders: Worldslayer)",
+			"Worked with Topgolf team on Topgolf Mobile App live QA and within developer’s own CICD pipeline",
 			"Worked with Team17 publisher QA to release Ageless and perform live QA on Golf with Your Friends while transitioning to remote testing and WFH model",
 			"Leading Functional QA projects on all major platforms, coordinating and mentoring teams, providing clients with project reports and other project-related documentation, communicating with clients and answering clients’ queries, preparing long-term plans and schedules, preparing guidelines and internal project documentation",
 			"Administrative tasks: scheduling for the upcoming and ongoing projects, evaluating teams and individual performances, conducting job interviews",
@@ -174,7 +174,7 @@ export const EXPERIENCE_WORK_KWS_DATA = [
 		company: "FQA Senior Tester / Keywords Studios",
 		date: "(July 2019 - December 2019)",
 		description: [
-			"Prepared a testing strategy for certification testing for a brand new mobile gaming platform for a team of 30+ testers working on two shifts",
+			"Prepared a testing strategy for a compatibility and certification testing for a brand new mobile gaming platform for a team of 30+ testers working on two shifts",
 			"Vetting, monitoring and ensuring the standard of the reported issues, working with issue databases, creating test cases and preparing test plans, coordinating teams on a daily basis and preparing daily tasks",
 		],
 		isListItem: true,

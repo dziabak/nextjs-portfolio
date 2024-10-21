@@ -43,6 +43,16 @@ export const FRONTEND_PROJECTS_DATA = [
 
 export const VIDEO_GAME_PROJECTS_DATA = [
 	{
+		id: "10",
+		title: "Planetary Metaverse",
+		description:
+			"Metaverse mobile application fusing e-commerce with gamification aspects (which I helped design).",
+		icon: "planetary-logo.svg",
+		alt: "Planetary Metaverse logo",
+		link: "https://play.google.com/store/apps/details?id=com.dreamit.meetclub&hl=en",
+		isRouterLink: true,
+	},
+	{
 		id: "5",
 		title: "Truck Simulation 19",
 		description:
@@ -66,7 +76,7 @@ export const VIDEO_GAME_PROJECTS_DATA = [
 		id: "7",
 		title: "Take Off - The Flight Simulator",
 		description:
-			"Complete conversion and redesign from mobile to PC achieved in a team of just two developers.",
+			"Complete port from mobile to PC achieved in a team of just two developers.",
 		icon: "takeoff-logo.jpg",
 		alt: "Take Off - The Flight Simulator logo",
 		link: "/projects/take-off",
@@ -98,12 +108,21 @@ export const PERSONAL_PROJECTS_DATA = [
 
 export const EXPERIENCE_DATA = [
 	{
+		id: "4",
+		company: "Planetary Metaverse",
+		date: "(2024 - present)",
+		description: [
+			"I joined the team as the first experienced designer to audit, provide feedback and implement solutions to an innovative mobile app, which fuses metaverse, e-commerce and gamification.",
+			"During my time on the project I redesigned a number of core gameplay loops and systems as well as designed new features and solutions to bring the app to a real 1.0 version.",
+		],
+		isListItem: false,
+	},
+	{
 		id: "1",
 		company: "Keywords Studios",
 		date: "(2019 - 2023)",
 		description: [
 			"Only a month after the FQA office was opened in Katowice, I joined the team of around 40 testers and throughout 4 years I’ve helped to build our location to become one of the largest FQA video game outsource studios in Europe.",
-			"As an FQA Lead and Project Manager I've worked with our partners and clients to provide the best testing strategies for their games and execute them.",
 			"I’ve worked on numerous high-profile projects, such as THE FINALS, Outriders: Worldslayer or The Medium",
 		],
 		isListItem: false,
@@ -114,21 +133,20 @@ export const EXPERIENCE_DATA = [
 		date: "(2017 - 2019)",
 		description: [
 			"During my time at the studio I’ve worked on three projects: Truck Simulation 19, Deep Diving Simulator and Take Off: The Flight Simulator.",
-			"As a Game Designer I was able to work on variety of features and areas of the projects - from typical game design work, all the way until post-release support.",
-			"As my standout role at the studio, I was working as a UI and UX designer on all of my projects. Working alongside UI artist and UI programmer, this was the epxerience which later turned into my love for frontend development.",
+			"As a Game Designer I was able to work on variety of features and areas of the projects - from typical game design work, all the way until post-release support - even porting studio's previous title.",
 		],
 		isListItem: false,
 	},
-	{
-		id: "3",
-		company: "Interactive Entertainment Design - University Course",
-		date: "(2012 - 2017)",
-		description: [
-			"I’ve finished the first Game Design course in Poland (Interactive Entertainment Design and Games and Software Localization at Uniwersytet Śląski w Katowicach) with a master’s degree.",
-			"Extremely valuable experience, it gave me a handful of critical and creative thinking skills as well as design oriented approach to product development and technical knowledge necessary for working with video game engines, such as Unity and Unreal Engine 4.",
-		],
-		isListItem: false,
-	},
+	// {
+	// 	id: "3",
+	// 	company: "Interactive Entertainment Design - University Course",
+	// 	date: "(2012 - 2017)",
+	// 	description: [
+	// 		"I’ve finished the first Game Design course in Poland (Interactive Entertainment Design and Games and Software Localization at Uniwersytet Śląski w Katowicach) with a master’s degree.",
+	// 		"Extremely valuable experience, it gave me a handful of critical and creative thinking skills as well as design oriented approach to product development and technical knowledge necessary for working with video game engines, such as Unity and Unreal Engine 4.",
+	// 	],
+	// 	isListItem: false,
+	// },
 ];
 
 export const EXPERIENCE_TECHNICAL_SKILLS_DATA = [

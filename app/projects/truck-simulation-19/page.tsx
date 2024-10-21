@@ -19,19 +19,59 @@ const Page = () => {
 	return (
 		<div>
 			<Title text="Truck Simulation 19" />
-			<p className="text-lg">
-				I joined the team when the game was already halfway through its
-				production, with many different features and functionalities already
-				established, however many of them still in need of iteration and
-				redesign. Most of my work on the project was realized during that
-				process and usually I had to work in the already established boundaries,
-				always needing to take into the account how I can use the existing
-				functionalities and improve upon them.
-			</p>
+			<div className="space-y-4">
+				<p className="text-lg">
+					I joined the team when the game was already halfway through its
+					production, with many different features and functionalities already
+					established, however many of them still in need of iteration and
+					redesign. Most of my work on the project was realized during that
+					process and usually I had to work in the already established
+					boundaries, always needing to take into the account how I can use the
+					existing functionalities and improve upon them.
+				</p>
+				<div className="space-y-4">
+					<p className="text-lg">Here's an overview:</p>
+					<div className="space-y-2">
+						<p>
+							<span className="font-bold">Delivery System:</span> Developed a
+							dynamic delivery system, factoring in player progression, cargo
+							type, and delivery challenges.
+						</p>
+						<p>
+							<span className="font-bold">Tutorial Redesign:</span> Revamped the
+							tutorial, integrating advanced features and immersive dialogue to
+							enhance player onboarding.
+						</p>
+						<p>
+							<span className="font-bold">Meta Game:</span> Created a trucking
+							company management system, driving player engagement with
+							real-time job completions and passive income.
+						</p>
+						<p>
+							<span className="font-bold">UI/UX Design:</span> Led UI design and
+							localization, later implementing a full redesign to meet publisher
+							requirements.
+						</p>
+						<p>
+							<span className="font-bold">Mission Design:</span> Designed story
+							missions with dynamic gameplay, adjusting routes and conditions
+							based on player progress and map updates.
+						</p>
+						<p>
+							<span className="font-bold">Level Design:</span> Crafted road
+							networks, intersections, and environments, ensuring realistic
+							navigation and cohesive map design.
+						</p>
+					</div>
+				</div>
+			</div>
 
 			<div className="space-y-8">
 				<Header text="Game Design" />
-				<Image src={ts19_01} alt="Video game screenshot showing a truck attaching a cargo trailer" />
+				<Image
+					src={ts19_01}
+					alt="Video game screenshot showing a truck attaching a cargo trailer"
+				/>
 				<div className="space-y-2">
 					<Subheader text="Deliveries system" />
 
@@ -107,9 +147,12 @@ const Page = () => {
 
 			<div className="space-y-8">
 				<Header text="UI/UX Design" />
-				<Image src={ts19_05} alt="Video game screenshot showing an interior of a truck shop with an UI" />
+				<Image
+					src={ts19_05}
+					alt="Video game screenshot showing an interior of a truck shop with an UI"
+				/>
 				<div className="space-y-2">
-				<Subheader text="UI/UX tasks & responsibilities" />
+					<Subheader text="UI/UX tasks & responsibilities" />
 					<p>
 						In the project I was the main person responsible for the UI design.
 						From the moment I&apos;ve started working on the project up until
@@ -145,7 +188,10 @@ const Page = () => {
 
 			<div className="space-y-8">
 				<Header text="Narrative Design" />
-				<Image src={ts19_02} alt="Video game screenshot showing a story dialogue during a delivery mission" />
+				<Image
+					src={ts19_02}
+					alt="Video game screenshot showing a story dialogue during a delivery mission"
+				/>
 				<div className="space-y-2">
 					<Subheader text="Mission system" />
 					<p>
@@ -182,7 +228,10 @@ const Page = () => {
 
 			<div className="space-y-8">
 				<Header text="Level Design" />
-				<Image src={ts19_04} alt="Video game screenshot showing a truck driving on a cloverleaf interchange" />
+				<Image
+					src={ts19_04}
+					alt="Video game screenshot showing a truck driving on a cloverleaf interchange"
+				/>
 				<div className="space-y-2">
 					<Subheader text="World map environment" />
 					<p>
@@ -226,7 +275,6 @@ const Page = () => {
 					</p>
 				</div>
 				<div className="space-y-2">
-
 					<Subheader text="Additional documentation" />
 					<p>
 						In the project I&apos;ve become known for keeping notes and

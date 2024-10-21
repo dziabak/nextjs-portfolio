@@ -8,18 +8,20 @@ const Hero = () => {
 				Hey, I’m Grzegorz.
 			</h1> */}
 			<h1 className="mb-2 text-3xl font-bold text-transparent bg-gradient-to-r from-indigo-400 to-cyan-400 bg-clip-text">
-				Hey, I’m Grzegorz.
+				Hey, I'm Grzegorz.
 			</h1>
 			<p className="mb-8 text-3xl font-bold">
-				Frontend developer, game designer and QA engineer.
+				Experienced Game Designer and seasoned QA Engineer.
 			</p>
 			<div className="space-y-4 text-xl opacity-75">
 				<p>
-					I’ve worked as Game Designer at Jujubee and FQA Lead and Project
-					Manager at Keywords Studios - now taking my experiences into Frontend
-					Development.
+					I've worked as Game Designer at Planetary and Jujubee as well as FQA
+					Lead and Project Manager at Keywords Studios.
 				</p>
-				<p>Currently diving deeper into Next.js 14 and learning C# with Unity.</p>
+				<p>
+					I'm currently developing my first commercial game in Unity (it's about
+					trains 🚂).
+				</p>
 				<p>
 					I love telling stories and sometimes I publish my games on{" "}
 					<a

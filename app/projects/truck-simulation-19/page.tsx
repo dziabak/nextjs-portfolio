@@ -30,7 +30,7 @@ const Page = () => {
 					existing functionalities and improve upon them.
 				</p>
 				<div className="space-y-4">
-					<p className="text-lg">Here's an overview:</p>
+					<p className="text-lg">Here&apos;s an overview:</p>
 					<div className="space-y-2">
 						<p>
 							<span className="font-bold">Delivery System:</span> Developed a

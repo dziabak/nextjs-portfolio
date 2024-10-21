@@ -8,19 +8,19 @@ const Hero = () => {
 				Hey, I’m Grzegorz.
 			</h1> */}
 			<h1 className="mb-2 text-3xl font-bold text-transparent bg-gradient-to-r from-indigo-400 to-cyan-400 bg-clip-text">
-				Hey, I'm Grzegorz.
+				Hey, I&apos;m Grzegorz.
 			</h1>
 			<p className="mb-8 text-3xl font-bold">
 				Experienced Game Designer and seasoned QA Engineer.
 			</p>
 			<div className="space-y-4 text-xl opacity-75">
 				<p>
-					I've worked as Game Designer at Planetary and Jujubee as well as FQA
-					Lead and Project Manager at Keywords Studios.
+					I&apos;ve worked as Game Designer at Planetary and Jujubee as well as
+					FQA Lead and Project Manager at Keywords Studios.
 				</p>
 				<p>
-					I'm currently developing my first commercial game in Unity (it's about
-					trains 🚂).
+					I&apos;m currently developing my first commercial game in Unity
+					(it&apos;s about trains 🚂).
 				</p>
 				<p>
 					I love telling stories and sometimes I publish my games on{" "}

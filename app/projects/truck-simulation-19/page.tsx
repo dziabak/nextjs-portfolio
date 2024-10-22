@@ -19,7 +19,7 @@ const Page = () => {
 	return (
 		<div>
 			<Title text="Truck Simulation 19" />
-			<div className="space-y-4">
+			<div className="space-y-8">
 				<p className="text-lg">
 					I joined the team when the game was already halfway through its
 					production, with many different features and functionalities already
@@ -30,7 +30,7 @@ const Page = () => {
 					existing functionalities and improve upon them.
 				</p>
 				<div className="space-y-4">
-					<p className="text-lg">Here&apos;s an overview:</p>
+					<p className="text-lg font-bold">Here&apos;s an overview:</p>
 					<div className="space-y-2">
 						<p>
 							<span className="font-bold">Delivery System:</span> Developed a

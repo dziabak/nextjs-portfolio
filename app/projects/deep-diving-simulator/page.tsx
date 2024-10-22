@@ -19,18 +19,59 @@ const Page = () => {
 	return (
 		<div>
 			<Title text="Deep Diving Simulator" />
-			<p className="text-lg">
-				I joined the team right after the prototyping phase of the project and
-				once it moved to the full-blown production. During the course of the
-				project I had a chance to design many of the features, systems and level
-				for the game and then iterate on and maintain them throughout the whole
-				production process. As with all of the projects I was involved in, I was
-				the person responsible for UI implementation.
-			</p>
+			<div className="space-y-8">
+				<p className="text-lg">
+					I joined the team right after the prototyping phase of the project and
+					once it moved to the full-blown production. During the course of the
+					project I had a chance to design many of the features, systems and
+					level for the game and then iterate on and maintain them throughout
+					the whole production process. As with all of the projects I was
+					involved in, I was the person responsible for UI implementation.
+				</p>
+
+				<div className="space-y-4">
+					<p className="text-lg font-bold">Here&apos;s an overview:</p>
+					<div className="space-y-2">
+						<p>
+							<span className="font-bold">Prefab Design: </span> Created and
+							maintained reusable prefabs for interactive objects, collectibles,
+							enemies, and hazards, ensuring easy iteration across levels.
+						</p>
+						<p>
+							<span className="font-bold"> Player Mechanics Tuning: </span>
+							Fine-tuned player movement, speed, and oxygen use to enhance the
+							underwater exploration experience, adjusting settings per level.
+						</p>
+						<p>
+							<span className="font-bold">UI/UX Design: </span>Led UI
+							implementation, working with artists and programmers to ensure
+							smooth functionality and localization throughout the game.
+						</p>
+						<p>
+							<span className="font-bold">Progression System: </span>Designed a
+							balanced player progression system with upgrades and new
+							mechanics, catering to both casual players and completionists.
+						</p>
+						<p>
+							<span className="font-bold">Level Design: </span>Created and
+							refined three full levels (Pirate's Nest, Silent Cove, Dragon's
+							Den), balancing exploration, hazards, and challenges.
+						</p>
+						<p>
+							<span className="font-bold">Level Maintenance and QA: </span>Ensured all
+							levels were polished, functional, and enjoyable, aligning
+							mechanics with overall game design and player experience as DevQA.
+						</p>
+					</div>
+				</div>
+			</div>
 
 			<div className="space-y-8">
 				<Header text="Game Design" />
-				<Image src={dds_01} alt="Video game screenshot showing an underwater scene near coral reef full of fish"/>
+				<Image
+					src={dds_01}
+					alt="Video game screenshot showing an underwater scene near coral reef full of fish"
+				/>
 				<p>
 					I have set up and maintained majority of the prefabs objects used
 					throughout various systems present in the game. One of my main
@@ -77,11 +118,13 @@ const Page = () => {
 					</li>
 				</div>
 			</div>
-
 			<div className="space-y-8">
 				<Header text="UI/UX Design" />
 
-				<Image src={dds_04} alt="Video game screenshot showing UI view from a deep-sea robot camera"/>
+				<Image
+					src={dds_04}
+					alt="Video game screenshot showing UI view from a deep-sea robot camera"
+				/>
 
 				<div className="space-y-2">
 					<p>
@@ -104,11 +147,13 @@ const Page = () => {
 					</li>
 				</div>
 			</div>
-
 			<div className="space-y-8">
 				<Header text="Game Balance" />
 
-				<Image src={dds_02} alt="Video game screenshot showing an underwater mining"/>
+				<Image
+					src={dds_02}
+					alt="Video game screenshot showing an underwater mining"
+				/>
 
 				<p>
 					The game involved a player progression system to both incentivize and
@@ -142,27 +187,30 @@ const Page = () => {
 					</li>
 				</div>
 			</div>
-
 			<div className="space-y-8">
 				<Header text="Level Design" />
 				<div>
-					<Image src={dds_03} alt="Video game screenshot showing a sunken underwater Japanese shrine" className="mb-4" />
+					<Image
+						src={dds_03}
+						alt="Video game screenshot showing a sunken underwater Japanese shrine"
+						className="mb-4"
+					/>
 					<p className="text-sm opacity-75">
-						One of the characteristic spots in the Dragon&apos;s Den level which I
-						worked on was featured on the game&apos;s Steam page.
+						One of the characteristic spots in the Dragon&apos;s Den level which
+						I worked on was featured on the game&apos;s Steam page.
 					</p>
 				</div>
 				<p>
-					I was involved in the full creation of three levels: Pirate&apos;s Nest,
-					Silent Cove and Dragon&apos;s Den. For those levels, I&apos;ve started working
-					on them right from the initial block out all the way up to their final
-					stages for the releasable status. My main focus as a level designer
-					was to guide the players through the levels, providing them with
-					challenges and interesting locations to explore. On each level, the
-					player would encounter some dangers and hazards in the forms of
-					sharks, sea urchins, fishing nets or strong water currents as well as
-					had a moment of peaceful exploration and collecting sea shells and
-					sunken treasures.
+					I was involved in the full creation of three levels: Pirate&apos;s
+					Nest, Silent Cove and Dragon&apos;s Den. For those levels, I&apos;ve
+					started working on them right from the initial block out all the way
+					up to their final stages for the releasable status. My main focus as a
+					level designer was to guide the players through the levels, providing
+					them with challenges and interesting locations to explore. On each
+					level, the player would encounter some dangers and hazards in the
+					forms of sharks, sea urchins, fishing nets or strong water currents as
+					well as had a moment of peaceful exploration and collecting sea shells
+					and sunken treasures.
 				</p>
 				<div className="space-y-2">
 					<p>

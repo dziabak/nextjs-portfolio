@@ -17,13 +17,42 @@ const Page = () => {
 	return (
 		<div>
 			<Title text="Take Off - The Flight Simulator" />
-			<p className="text-lg">
-				This was the first project I was responsible for immediately after
-				joining the studio, where I had to show versatility and ability to learn
-				quickly, as in a very short time I experienced many aspects of the game
-				production process and was responsible for every feature available in
-				the game.
-			</p>
+			<div className="space-y-8">
+				<p className="text-lg">
+					This was the first project I was responsible for immediately after
+					joining the studio, where I had to show versatility and ability to
+					learn quickly, as in a very short time I experienced many aspects of
+					the game production process and was responsible for every feature
+					available in the game.
+				</p>
+
+				<div className="space-y-4">
+					<p className="text-lg font-bold">Here&apos;s an overview:</p>
+					<div className="space-y-2">
+						<p>
+							<span className="font-bold">Port from Mobile to PC: </span> Led
+							the redesign from mobile to PC, adjusting features like camera
+							positioning and controls to suit the platform's capabilities.
+						</p>
+						<p>
+							<span className="font-bold">UI/UX Redesign: </span>Adapted the UI
+							for mouse, keyboard, and gamepad, adjusting navigation flows and
+							implementing new control support.
+						</p>
+						<p>
+							<span className="font-bold">Game Balance Overhaul: </span>Reworked
+							the progression system for a premium model, removing in-app
+							purchases and encouraging longer play sessions.
+						</p>
+						<p>
+							<span className="font-bold">Level Design Enhancements: </span>{" "}
+							Improved visuals and performance with higher quality textures,
+							extended draw distances, and post-processing for PC.
+						</p>
+					</div>
+				</div>
+			</div>
+
 			<div className="space-y-8">
 				<Header text="Game Design" />
 				<div className="space-y-2">

@@ -5,6 +5,8 @@ import {
 	EXPERIENCE_TECHNICAL_SKILLS_DATA,
 	EXPERIENCE_WORK_KWS_DATA,
 	EXPERIENCE_WORK_JUJUBEE_DATA,
+	EXPERIENCE_WORK_INCUVO_DATA,
+	EXPERIENCE_WORK_ARTIFEX_DATA,
 	EXPERIENCE_EDUCATION_DATA,
 } from "@/lib/data";
 import Header from "@/components/shared/Header";
@@ -22,6 +24,8 @@ const Page = () => {
 			<Header text="EXPERIENCE" />
 			<ExperienceCardsGrid data={EXPERIENCE_WORK_KWS_DATA} />
 			<ExperienceCardsGrid data={EXPERIENCE_WORK_JUJUBEE_DATA} />
+			<ExperienceCardsGrid data={EXPERIENCE_WORK_INCUVO_DATA} />
+			<ExperienceCardsGrid data={EXPERIENCE_WORK_ARTIFEX_DATA} />
 			<Header text="EDUCATION" />
 			<ExperienceCardsGrid data={EXPERIENCE_EDUCATION_DATA} />
 		</div>

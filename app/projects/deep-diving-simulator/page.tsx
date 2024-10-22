@@ -54,7 +54,7 @@ const Page = () => {
 						</p>
 						<p>
 							<span className="font-bold">Level Design: </span>Created and
-							refined three full levels (Pirate's Nest, Silent Cove, Dragon's
+							refined three full levels (Pirate&apos;s Nest, Silent Cove, Dragon&apos;s
 							Den), balancing exploration, hazards, and challenges.
 						</p>
 						<p>

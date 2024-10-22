@@ -32,7 +32,7 @@ const Page = () => {
 						<p>
 							<span className="font-bold">Port from Mobile to PC: </span> Led
 							the redesign from mobile to PC, adjusting features like camera
-							positioning and controls to suit the platform's capabilities.
+							positioning and controls to suit the platform&apos;s capabilities.
 						</p>
 						<p>
 							<span className="font-bold">UI/UX Redesign: </span>Adapted the UI

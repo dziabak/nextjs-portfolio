@@ -170,7 +170,7 @@ export const EXPERIENCE_WORK_KWS_DATA = [
 	{
 		id: "7",
 		company: "UX and Game Designer / Dream IT",
-		date: "(June 2024 - Present)",
+		date: "(June 2024 - November 2024)",
 		description: [
 			"Planetary 22 (Unity; iOS, Android): UX design with heavy focus on designing gamification layer for a mobile application blending immersive virtual experiences and e-commerce, developing new features and implementing them in engine, designing tools and editors, introducing QA processes and preparing test plans, developing user stories, designing wireframes and mock UI, maintaining game design documents",
 		],

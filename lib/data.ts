@@ -44,9 +44,9 @@ export const FRONTEND_PROJECTS_DATA = [
 export const VIDEO_GAME_PROJECTS_DATA = [
 	{
 		id: "10",
-		title: "Planetary Metaverse",
+		title: "Planetary 22",
 		description:
-			"Metaverse mobile application fusing e-commerce with gamification aspects (which I helped design)",
+			"Mobile application fusing e-commerce with gamification aspects (which I helped design)",
 		icon: "planetary-logo.svg",
 		alt: "Planetary Metaverse logo",
 		link: "https://play.google.com/store/apps/details?id=com.dreamit.meetclub&hl=en",
@@ -109,11 +109,12 @@ export const PERSONAL_PROJECTS_DATA = [
 export const EXPERIENCE_DATA = [
 	{
 		id: "4",
-		company: "Planetary Metaverse",
-		date: "(2024 - present)",
+		company: "Planetary 22",
+		date: "(2024)",
 		description: [
-			"I joined the team as the first experienced designer to audit, provide feedback and implement solutions to an innovative mobile app, which fuses metaverse, e-commerce and gamification aspects.",
+			"I joined the team as the first experienced designer to audit, provide feedback, and implement solutions to an innovative mobile app which blends immersive virtual experiences, e-commerce, and gamification elements.",
 			"During my time on the project I redesigned a number of core gameplay loops and systems as well as designed new features and solutions to bring the app to a solid 1.0 version.",
+			"Leveraging my experience in QA, I have introduced and refined a range of QA processes. These include implementing simple yet effective tools like bug templates, as well as developing comprehensive methodologies such as smoke tests, sign-off test plans, and exhaustive test plans for new features, ensuring robust and efficient product testing.",
 		],
 		isListItem: false,
 	},
@@ -168,10 +169,10 @@ export const EXPERIENCE_TECHNICAL_SKILLS_DATA = [
 export const EXPERIENCE_WORK_KWS_DATA = [
 	{
 		id: "7",
-		company: "UX and Game Designer / Planetary",
+		company: "UX and Game Designer / Dream IT",
 		date: "(June 2024 - Present)",
 		description: [
-			"Planetary Metaverse (Unity; iOS, Android): UX design with heavy focus on designing gamification layer for a metaverse mobile app, developing new features and implementing them in engine using tools and editors prepared by programmers, developing user stories, designing wireframes and mock UI, maintaining game design documents",
+			"Planetary 22 (Unity; iOS, Android): UX design with heavy focus on designing gamification layer for a mobile application blending immersive virtual experiences and e-commerce, developing new features and implementing them in engine, designing tools and editors, introducing QA processes and preparing test plans, developing user stories, designing wireframes and mock UI, maintaining game design documents",
 		],
 		isListItem: true,
 	},
@@ -201,6 +202,7 @@ export const EXPERIENCE_WORK_KWS_DATA = [
 		date: "(July 2019 - December 2019)",
 		description: [
 			"Vetting, monitoring and ensuring the standard of the reported issues, working with issue databases, creating test cases and preparing test plans, coordinating teams on a daily basis and preparing daily tasks",
+			"Projects credited: Imperator: Rome - The Punic Wars, Hell Let Loose",
 		],
 		isListItem: true,
 	},

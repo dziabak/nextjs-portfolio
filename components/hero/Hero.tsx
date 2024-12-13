@@ -15,12 +15,21 @@ const Hero = () => {
 			</p>
 			<div className="space-y-4 text-xl opacity-75">
 				<p>
-					I&apos;ve worked as Game Designer at Planetary and Jujubee as well as
-					FQA Lead and Project Manager at Keywords Studios.
+					I&apos;ve worked as <span className="font-bold">Game Designer</span>{" "}
+					at Planetary and Jujubee as well as{" "}
+					<span className="font-bold">FQA Lead</span> and{" "}
+					<span className="font-bold">Project Manager</span> at Keywords
+					Studios.
 				</p>
 				<p>
-					I&apos;m currently developing my first commercial game in Unity
-					(it&apos;s about trains 🚂).
+					I'm passionate about <span className="font-bold">UI</span> and{" "}
+					<span className="font-bold">UX</span> and that's why I learned{" "}
+					<span className="font-bold">React</span>.
+				</p>
+				<p>
+					I&apos;m currently developing my first commercial game in{" "}
+					<span className="font-bold">Unity</span> (it&apos;s about{" "}
+					<span className="font-bold">nuclear trains</span>).
 				</p>
 				<p>
 					I love telling stories and sometimes I publish my games on{" "}
@@ -28,7 +37,7 @@ const Hero = () => {
 						href="https://gdd.itch.io/"
 						target="_blank"
 						rel="noopener"
-						className="text-c-violet hover:text-white">
+						className="font-bold text-c-violet hover:text-white">
 						itch.io
 					</a>
 					.

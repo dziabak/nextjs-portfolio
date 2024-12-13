@@ -19,10 +19,10 @@ export const metadata: Metadata = {
 const Page = () => {
 	return (
 		<div>
-			{/* <Header text="Frontend Projects" />
-			<ProjectCardsGrid data={FRONTEND_PROJECTS_DATA} /> */}
 			<Header text="Video Game Projects" />
 			<ProjectCardsGrid data={VIDEO_GAME_PROJECTS_DATA} />
+			<Header text="Frontend Projects" />
+			<ProjectCardsGrid data={FRONTEND_PROJECTS_DATA} />
 			<Header text="Personal Projects" />
 			<ProjectCardsGrid data={PERSONAL_PROJECTS_DATA} />
 			<DetailsLink

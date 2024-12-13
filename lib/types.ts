@@ -15,3 +15,10 @@ export type ExperienceCardProps = {
 	description: string[];
 	isListItem: boolean;
 };
+
+export type CategoryCardProps = {
+	id?: string;
+	title: string;
+	description: string;
+	link: string;
+};

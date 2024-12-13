@@ -50,7 +50,7 @@ export const VIDEO_GAME_PROJECTS_DATA = [
 		icon: "planetary-logo.svg",
 		alt: "Planetary Metaverse logo",
 		link: "https://play.google.com/store/apps/details?id=com.dreamit.meetclub&hl=en",
-		isRouterLink: true,
+		isRouterLink: false,
 	},
 	{
 		id: "5",
@@ -159,7 +159,7 @@ export const EXPERIENCE_TECHNICAL_SKILLS_DATA = [
 		description: [
 			"Unity (with C#), Game Maker Studio 2 (GML), Unreal Engine (Blueprints)",
 			"Bitsy, GB Studio, Twine",
-			"Frontend web development tools and frameworks (React with TypeScript)",
+			"Frontend web development tools and frameworks (React, TypeScript, Tailwind, Next.js, Firebase, SQL, HTML, CSS, JavaScript)",
 			"JIRA, Redmine, Mantis, TestRail, Xcode, Sourcetree, GitHub, Figma, Confluence, Trello, Notion",
 		],
 		isListItem: true,
@@ -256,5 +256,26 @@ export const EXPERIENCE_EDUCATION_DATA = [
 			"Thesis: ''The new worlds of narration: Models for narrative-driven design of contemporary exploration adventure games''",
 		],
 		isListItem: true,
+	},
+];
+
+export const HERO_SECTIONS_DATA = [
+	{
+		id: "20",
+		title: "🎮 GAME DESIGN AND QA",
+		description: "Projects I’ve worked on in Jujubee, Planetary and Keywords",
+		link: "/gamedev",
+	},
+	{
+		id: "21",
+		title: "💻 FRONTEND DEVELOPMENT",
+		description: "Personal projects in React, Next.js and TypeScript",
+		link: "/frontend",
+	},
+	{
+		id: "22",
+		title: "🐟 TUNA IS A DOG",
+		description: "My own game studio developing its first commercial game",
+		link: "/tuna-is-a-dog",
 	},
 ];

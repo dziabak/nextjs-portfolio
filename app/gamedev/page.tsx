@@ -26,7 +26,7 @@ const Page = () => {
 				<p>
 					With over seven years of experience spanning indie and AAA projects, I
 					specialize in crafting engaging gameplay systems, designing intuitive
-					user interfaces, and ensuring high product quality through robust QA
+					user interfaces and ensuring high product quality through robust QA
 					processes.
 				</p>
 				<p>

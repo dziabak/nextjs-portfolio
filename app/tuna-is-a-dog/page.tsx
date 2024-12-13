@@ -10,7 +10,7 @@ const Page = () => {
 	return (
 		<main>
 			<div className="space-y-4 text-center">
-				<h1 className="text-3xl font-bold">We are <span className="italic">Tuna is a Dog</span> game studio and we're hard at work on our first game!</h1>
+				<h1 className="text-3xl font-bold">We are <span className="italic">Tuna is a Dog</span> game studio and we&apos;re hard at work on our first game!</h1>
 				<p className="text-lg opacity-75">
 					More information coming soon...
 				</p>

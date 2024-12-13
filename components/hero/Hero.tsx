@@ -22,8 +22,8 @@ const Hero = () => {
 					Studios.
 				</p>
 				<p>
-					I'm passionate about <span className="font-bold">UI</span> and{" "}
-					<span className="font-bold">UX</span> and that's why I learned{" "}
+					I&apos;m passionate about <span className="font-bold">UI</span> and{" "}
+					<span className="font-bold">UX</span> and that&apos;s why I learned{" "}
 					<span className="font-bold">React</span>.
 				</p>
 				<p>

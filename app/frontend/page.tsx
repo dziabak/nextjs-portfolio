@@ -19,7 +19,7 @@ const Page = () => {
 			<div className="space-y-2 text-lg mb-8">
 				<p>
 					I am a detail-oriented professional with a strong foundation in
-					quality assurance, UI/UX design, and frontend development.
+					quality assurance, UI/UX design and frontend development.
 				</p>
 				<p>
 					With extensive experience in refining software quality through robust

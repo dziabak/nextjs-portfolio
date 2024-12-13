@@ -21,7 +21,7 @@ const Page = () => {
 			<div className="space-y-2 text-lg mb-8">
 				<p>
 					I am a multi-disciplinary professional with expertise in game design,
-					systems development, and quality assurance.
+					systems development and quality assurance.
 				</p>
 				<p>
 					With over seven years of experience spanning indie and AAA projects, I

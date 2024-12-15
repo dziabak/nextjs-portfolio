@@ -56,7 +56,7 @@ const Page = () => {
 					largest QA outsource studios and worked on high-profile titles such as{" "}
 					<span className="font-bold">THE FINALS</span>,{" "}
 					<span className="font-bold">Outriders: Worldslayer</span>, and{" "}
-					<span className="font-bold">The Medium</span> as well as{" "}
+					<span className="font-bold">The Medium</span> as well as{" "}indie titles such as{" "}
 					<span className="font-bold">Harold Halibut</span> and{" "}
 					<span className="font-bold">Golf With Your Friends</span>.
 				</p>

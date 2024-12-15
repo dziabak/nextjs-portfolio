@@ -18,14 +18,10 @@ const Page = () => {
 			</h1>
 			<div className="space-y-2 text-lg mb-8">
 				<p>
-					I am a detail-oriented professional with a strong foundation in
-					quality assurance, UI/UX design and frontend development.
+					I am a versatile professional with a strong foundation in UI and UX in video games, quality assurance and frontend development.
 				</p>
 				<p>
-					With extensive experience in refining software quality through robust
-					QA processes and collaborating with multidisciplinary teams, I have
-					developed a deep understanding of delivering polished, user-friendly
-					applications.
+					Drawing on over seven years of experience in creating engaging systems and intuitive UI for games, I bring a unique perspective to crafting polished, user-friendly applications.
 				</p>
 				<p>
 					My recent focus has been on expanding my skills in{" "}

@@ -47,7 +47,7 @@ const Page = () => {
 				<p>
 					At <span className="font-bold">Planetary</span>, I led the redesign of
 					core gameplay systems and implemented innovative features for a mobile
-					app blending virtual experiences and gamification, while also
+					app blending virtual experiences, e-commerce and gamification, while also
 					introducing robust QA methodologies to ensure a polished release.
 				</p>
 				<p>

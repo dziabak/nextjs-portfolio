@@ -3,7 +3,7 @@ export const FRONTEND_PROJECTS_DATA = [
 		id: "1",
 		title: "Feedback Nexus",
 		description:
-			"Project management app with adding and editing feedback, advanced filtering and comments.",
+			"Project management app with adding and editing feedback, advanced filtering and comments",
 		icon: "feedback-logo.svg",
 		alt: "Feedback Nexus logo",
 		link: "https://github.com/dziabak/product-feedback-app",
@@ -13,7 +13,7 @@ export const FRONTEND_PROJECTS_DATA = [
 		id: "2",
 		title: "Devjobs Web App",
 		description:
-			"Jobs board application with search functionality. Built with React, TypeScript and Tailwind.",
+			"Jobs board application with search functionality. Built with React, TypeScript and Tailwind",
 		icon: "devjobs-logo.svg",
 		alt: "Devjobs Web App logo",
 		link: "https://github.com/dziabak/devjobs-web-app",
@@ -23,7 +23,7 @@ export const FRONTEND_PROJECTS_DATA = [
 		id: "3",
 		title: "Entertainment App",
 		description:
-			"Lightweight Netflix clone with search and bookmarking functionalities.",
+			"Lightweight Netflix clone with search and bookmarking functionalities",
 		icon: "entertainment-logo.svg",
 		alt: "Entartainment App logo",
 		link: "https://github.com/dziabak/entertainment-app-remake",
@@ -33,7 +33,7 @@ export const FRONTEND_PROJECTS_DATA = [
 		id: "4",
 		title: "Photosnap Service Page",
 		description:
-			"Traditional multi-page marketing website for a photo-sharing app. Built with Next.js 14.",
+			"Traditional multi-page marketing website for a photo-sharing app. Built with Next.js 14",
 		icon: "photosnap-logo.svg",
 		alt: "Photosnap Service Page logo",
 		link: "https://github.com/dziabak/nextjs-photosnap",

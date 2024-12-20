@@ -37,6 +37,17 @@ const Page = () => {
 					players while maintaining a strong focus on efficiency and quality
 					throughout development.
 				</p>
+								<p>
+					I love telling stories and sometimes I publish my games on{" "}
+					<a
+						href="https://gdd.itch.io/"
+						target="_blank"
+						rel="noopener"
+						className="font-bold text-c-violet hover:text-white">
+						itch.io
+					</a>
+					.
+				</p>
 			</div>
 			<DetailsLink link="/experience" text="Check my full CV →" />
 			<Header text="Projects" />

@@ -20,19 +20,24 @@ const Page = () => {
 			{/* <Header text="Profile" /> */}
 			<div className="space-y-2 text-lg mb-8">
 				<p>
-					I am a multi-disciplinary professional with expertise in game design,
-					systems development and quality assurance.
+					I am a multi-disciplinary professional with expertise in{" "}
+					<span className="font-bold">game design</span>,{" "}
+					<span className="font-bold">systems development</span> and{" "}
+					<span className="font-bold">quality assurance</span>.
 				</p>
 				<p>
-					With over seven years of experience spanning indie and AAA projects, I
-					specialize in crafting engaging gameplay systems, designing intuitive
-					user interfaces and ensuring high product quality through robust QA
+					With over <span className="font-bold">seven</span> years of experience
+					spanning <span className="font-bold">indie</span> and{" "}
+					<span className="font-bold">AAA</span> projects, I specialize in
+					crafting engaging gameplay systems, designing intuitive user
+					interfaces and ensuring high product quality through robust QA
 					processes.
 				</p>
 				<p>
-					My background includes lead QA roles where I implemented and optimized
-					testing methodologies, and project management experience, coordinating
-					multiple teams to deliver polished, high-quality games.
+					My background includes <span className="font-bold">lead QA</span>{" "}
+					roles where I implemented and optimized testing methodologies as well
+					as <span className="font-bold">Project Manager</span> experience,
+					coordinating multiple teams to deliver polished, high-quality games.
 				</p>
 				{/* <p>
 					My passion lies in building immersive experiences that resonate with

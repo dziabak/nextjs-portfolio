@@ -67,7 +67,7 @@ export const VIDEO_GAME_PROJECTS_DATA = [
 		title: "Deep Diving Simulator",
 		description:
 			"Slow and relaxing exploration game made in a small team, but with a demanding production schedule",
-		icon: "dds-logo.jpg",
+		icon: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/990030/logo.png?t=1573656553",
 		alt: "Deep Diving Simulator logo",
 		link: "/projects/deep-diving-simulator",
 		isRouterLink: true,
@@ -77,7 +77,7 @@ export const VIDEO_GAME_PROJECTS_DATA = [
 		title: "Take Off - The Flight Simulator",
 		description:
 			"Complete port from mobile to PC achieved in a team of just two developers",
-		icon: "takeoff-logo.jpg",
+		icon: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/657470/logo.png?t=1572977193",
 		alt: "Take Off - The Flight Simulator logo",
 		link: "/projects/take-off",
 		isRouterLink: true,
@@ -111,7 +111,7 @@ export const FQA_PROJECTS_DATA = [
 		id: "30",
 		title: "Outriders: Worldslayer",
 		description:
-			"",
+			"Almost 2 years of full QA support of a team of 40+ testers on all major platforms",
 		icon: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/680420/logo.png?t=1707490667",
 		alt: "Ouriders logo",
 		link: "https://store.steampowered.com/app/1785250/OUTRIDERS_WORLDSLAYER_EXPANSION/",
@@ -121,7 +121,7 @@ export const FQA_PROJECTS_DATA = [
 		id: "31",
 		title: "The Medium",
 		description:
-			"",
+			"Exhaustive testing from an early production stages all the way to Xbox Series X/S certification",
 		icon: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1293160/logo.png?t=1677079990",
 		alt: "The Medium logo",
 		link: "https://store.steampowered.com/app/1293160/The_Medium/",
@@ -131,7 +131,7 @@ export const FQA_PROJECTS_DATA = [
 		id: "32",
 		title: "THE FINALS",
 		description:
-			"",
+			"Intensive testing rounds for closed betas and pre-launch turned into long-term QA support",
 		icon: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2073850/logo.png?t=1718211011",
 		alt: "THE FINALS logo",
 		link: "https://store.steampowered.com/app/2073850/THE_FINALS/",
@@ -140,8 +140,7 @@ export const FQA_PROJECTS_DATA = [
 	{
 		id: "33",
 		title: "Harold Halibut",
-		description:
-			"",
+		description: "Multiple testing rounds spanning over a year of QA support",
 		icon: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/924750/logo.png?t=1690550346",
 		alt: "Harold Halibut logo",
 		link: "https://store.steampowered.com/app/924750/Harold_Halibut/",
@@ -151,7 +150,7 @@ export const FQA_PROJECTS_DATA = [
 		id: "34",
 		title: "Golf With Your Friends",
 		description:
-			"",
+			"Live QA and post-release QA support - updates testing for new maps and features",
 		icon: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/431240/logo.png?t=1659973163",
 		alt: "Golf With Your Friends logo",
 		link: "https://store.steampowered.com/app/431240/Golf_With_Your_Friends/",
@@ -325,10 +324,10 @@ export const HERO_SECTIONS_DATA = [
 		description: "Personal projects in React, Next.js and TypeScript",
 		link: "/frontend",
 	},
-	{
-		id: "22",
-		title: "🐟 TUNA IS A DOG",
-		description: "My own game studio developing its first commercial game",
-		link: "/tuna-is-a-dog",
-	},
+	// {
+	// 	id: "22",
+	// 	title: "🐟 TUNA IS A DOG",
+	// 	description: "My own game studio developing its first commercial game",
+	// 	link: "/tuna-is-a-dog",
+	// },
 ];

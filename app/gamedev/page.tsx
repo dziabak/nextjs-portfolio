@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import Header from "@/components/shared/Header";
 import ProjectCardsGrid from "@/components/projects/ProjectCardsGrid";
 import DetailsLink from "@/components/shared/DetailsLink";
-import { VIDEO_GAME_PROJECTS_DATA } from "@/lib/data";
+import { VIDEO_GAME_PROJECTS_DATA, FQA_PROJECTS_DATA } from "@/lib/data";
 
 export const metadata: Metadata = {
 	title: "Gamedev | GD",
@@ -30,15 +30,16 @@ const Page = () => {
 					processes.
 				</p>
 				<p>
-					 My background includes lead QA roles where I implemented and optimized testing methodologies, and project management experience, coordinating multiple teams to deliver polished, high-quality games.
+					My background includes lead QA roles where I implemented and optimized
+					testing methodologies, and project management experience, coordinating
+					multiple teams to deliver polished, high-quality games.
 				</p>
-				 
-				/* <p>
+				{/* <p>
 					My passion lies in building immersive experiences that resonate with
 					players while maintaining a strong focus on efficiency and quality
 					throughout development.
-				 </p> */
-								<p>
+				</p> */}
+				<p>
 					I love telling stories and sometimes I publish my games on{" "}
 					<a
 						href="https://gdd.itch.io/"
@@ -53,6 +54,8 @@ const Page = () => {
 			<DetailsLink link="/experience" text="Check my full CV →" />
 			<Header text="Projects as Game Designer" />
 			<ProjectCardsGrid data={VIDEO_GAME_PROJECTS_DATA} />
+			<Header text="Projects as FQA Lead and Project Manager" />
+			<ProjectCardsGrid data={FQA_PROJECTS_DATA} />
 			<Header text="Experience highlights" />
 			<div className="space-y-2 text-lg">
 				<p>
@@ -62,8 +65,8 @@ const Page = () => {
 				<p>
 					At <span className="font-bold">Planetary</span>, I led the redesign of
 					core gameplay systems and implemented innovative features for a mobile
-					app blending virtual experiences, e-commerce and gamification, while also
-					introducing robust QA methodologies to ensure a polished release.
+					app blending virtual experiences, e-commerce and gamification, while
+					also introducing robust QA methodologies to ensure a polished release.
 				</p>
 				<p>
 					At <span className="font-bold">Keywords Studios</span>, I supported
@@ -71,8 +74,8 @@ const Page = () => {
 					largest QA outsource studios and worked on high-profile titles such as{" "}
 					<span className="font-bold">THE FINALS</span>,{" "}
 					<span className="font-bold">Outriders: Worldslayer</span>, and{" "}
-					<span className="font-bold">The Medium</span> as well as{" "}indie titles such as{" "}
-					<span className="font-bold">Harold Halibut</span> and{" "}
+					<span className="font-bold">The Medium</span> as well as indie titles
+					such as <span className="font-bold">Harold Halibut</span> and{" "}
 					<span className="font-bold">Golf With Your Friends</span>.
 				</p>
 				<p>

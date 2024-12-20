@@ -106,6 +106,59 @@ export const PERSONAL_PROJECTS_DATA = [
 	},
 ];
 
+export const FQA_PROJECTS_DATA = [
+	{
+		id: "30",
+		title: "Outriders: Worldslayer",
+		description:
+			"",
+		icon: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/680420/logo.png?t=1707490667",
+		alt: "Ouriders logo",
+		link: "https://store.steampowered.com/app/1785250/OUTRIDERS_WORLDSLAYER_EXPANSION/",
+		isRouterLink: false,
+	},
+	{
+		id: "31",
+		title: "The Medium",
+		description:
+			"",
+		icon: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1293160/logo.png?t=1677079990",
+		alt: "The Medium logo",
+		link: "https://store.steampowered.com/app/1293160/The_Medium/",
+		isRouterLink: false,
+	},
+	{
+		id: "32",
+		title: "THE FINALS",
+		description:
+			"",
+		icon: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2073850/logo.png?t=1718211011",
+		alt: "THE FINALS logo",
+		link: "https://store.steampowered.com/app/2073850/THE_FINALS/",
+		isRouterLink: false,
+	},
+	{
+		id: "33",
+		title: "Harold Halibut",
+		description:
+			"",
+		icon: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/924750/logo.png?t=1690550346",
+		alt: "Harold Halibut logo",
+		link: "https://store.steampowered.com/app/924750/Harold_Halibut/",
+		isRouterLink: false,
+	},
+	{
+		id: "34",
+		title: "Golf With Your Friends",
+		description:
+			"",
+		icon: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/431240/logo.png?t=1659973163",
+		alt: "Golf With Your Friends logo",
+		link: "https://store.steampowered.com/app/431240/Golf_With_Your_Friends/",
+		isRouterLink: false,
+	},
+];
+
 export const EXPERIENCE_DATA = [
 	{
 		id: "4",

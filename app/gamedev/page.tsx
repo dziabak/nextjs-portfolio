@@ -30,6 +30,9 @@ const Page = () => {
 					processes.
 				</p>
 				<p>
+					 My background includes lead QA roles where I implemented and optimized testing methodologies, and project management experience, coordinating multidisciplinary teams to deliver polished, high-quality products on time.
+				</p>
+				<p>
 					My passion lies in building immersive experiences that resonate with
 					players while maintaining a strong focus on efficiency and quality
 					throughout development.

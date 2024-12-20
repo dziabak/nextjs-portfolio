@@ -50,7 +50,7 @@ const Page = () => {
 				</p>
 			</div>
 			<DetailsLink link="/experience" text="Check my full CV →" />
-			<Header text="Projects" />
+			<Header text="Projects as Game Designer" />
 			<ProjectCardsGrid data={VIDEO_GAME_PROJECTS_DATA} />
 			<Header text="Experience highlights" />
 			<div className="space-y-2 text-lg">

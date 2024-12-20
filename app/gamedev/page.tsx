@@ -32,11 +32,12 @@ const Page = () => {
 				<p>
 					 My background includes lead QA roles where I implemented and optimized testing methodologies, and project management experience, coordinating multiple teams to deliver polished, high-quality games.
 				</p>
-				// <p>
-				//	My passion lies in building immersive experiences that resonate with
-				//	players while maintaining a strong focus on efficiency and quality
-				//	throughout development.
-				// </p>
+				 
+				/* <p>
+					My passion lies in building immersive experiences that resonate with
+					players while maintaining a strong focus on efficiency and quality
+					throughout development.
+				 </p> */
 								<p>
 					I love telling stories and sometimes I publish my games on{" "}
 					<a

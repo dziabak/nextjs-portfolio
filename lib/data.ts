@@ -240,6 +240,16 @@ export const EXPERIENCE_WORK_KWS_DATA = [
 		isListItem: true,
 	},
 	{
+		id: "301",
+		company: "University Lecturer / WSB University",
+		date: "(October 2021 - January 2022)",
+		description: [
+			"Taught a one-semester course, 'Meetings with an Industry Expert,' with the topic 'State of the Industry: Polish Gamedev and More'",
+			"Covered industry operations, career paths, and insights on breaking into the field for IT students of various specializations",
+		],
+		isListItem: true,
+	},
+	{
 		id: "3",
 		company: "FQA Lead / Keywords Studios",
 		date: "(July 2019 - December 2019)",

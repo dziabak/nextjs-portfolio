@@ -111,7 +111,7 @@ export const FQA_PROJECTS_DATA = [
 		id: "30",
 		title: "Outriders: Worldslayer",
 		description:
-			"Almost 2 years of full QA support of a team of 40+ testers on all major platforms",
+			"Almost 2 years of full QA support with a team of 40+ testers on all major platforms",
 		icon: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/680420/logo.png?t=1707490667",
 		alt: "Ouriders logo",
 		link: "https://store.steampowered.com/app/1785250/OUTRIDERS_WORLDSLAYER_EXPANSION/",
@@ -150,7 +150,7 @@ export const FQA_PROJECTS_DATA = [
 		id: "34",
 		title: "Golf With Your Friends",
 		description:
-			"Live QA and post-release QA support - updates testing for new maps and features",
+			"Live QA and post-release QA support, updates testing for new maps and features",
 		icon: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/431240/logo.png?t=1659973163",
 		alt: "Golf With Your Friends logo",
 		link: "https://store.steampowered.com/app/431240/Golf_With_Your_Friends/",

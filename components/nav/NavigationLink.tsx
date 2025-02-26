@@ -11,7 +11,7 @@ const NavigationLink = ({
 	return (
 		<Link
 			href={href}
-			className="px-2 text-center transition-opacity opacity-75 hover:opacity-100">
+			className="px-2 text-center transition-opacity opacity-75 text-xs md:text-base hover:opacity-100">
 			{text}
 		</Link>
 	);

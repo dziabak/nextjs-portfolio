@@ -29,7 +29,7 @@ const Hero = () => {
 				<p>
 					I&apos;m currently developing my first commercial game in{" "}
 					<span className="font-bold">Unity</span> (it&apos;s about{" "}
-					<span className="font-bold">nuclear trains</span>).
+					<span className="font-bold">trains 🚂</span>).
 				</p>
 				<p>
 					I love telling stories and sometimes I publish my games on{" "}

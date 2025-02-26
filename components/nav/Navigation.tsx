@@ -8,8 +8,17 @@ const Navigation = () => {
 			<div>
 				<Logo />
 			</div>
-			<div className="space-x-2">
-				<NavigationLink href="/gamedev" text="Game Design and QA" />
+			<div className="flex items-center justify-between space-x-2">
+				{/* <NavigationLink href="/gamedev" text="Game Design and QA" /> */}
+				<NavigationLink
+					href="/gamedev"
+					text={
+						<span>	
+							<span className="md:hidden">Game Design/QA</span>
+							<span className="hidden md:inline">Game Design and QA</span>
+						</span>
+					}
+				/>
 				<NavigationLink href="/frontend" text="Frontend" />
 				<NavigationLink href="/projects" text="Projects" />
 				<NavigationLink href="/experience" text="Experience" />

@@ -4,7 +4,7 @@ import NavigationLink from "./NavigationLink";
 
 const Navigation = () => {
 	return (
-		<nav className="flex items-center justify-between py-8 mb-16">
+		<nav className="flex items-center justify-between py-8 mb-2 md:mb-12">
 			<div>
 				<Logo />
 			</div>

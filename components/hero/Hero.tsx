@@ -27,9 +27,15 @@ const Hero = () => {
 					<span className="font-bold">React</span>.
 				</p>
 				<p>
-					I&apos;m currently developing my first commercial game in{" "}
+					I&apos;m currently solo-developing my very first own commercial game in{" "}
 					<span className="font-bold">Unity</span> (it&apos;s about{" "}
-					<span className="font-bold">trains 🚂</span>).
+					<a
+						href="https://gdd.itch.io/silly-little-trains"
+						target="_blank"
+						rel="noopener"
+						className="font-bold text-c-violet hover:text-white">
+						trains
+					</a> 🚂).
 				</p>
 				<p>
 					I love telling stories and sometimes I publish my games on{" "}

@@ -213,6 +213,7 @@ export const EXPERIENCE_TECHNICAL_SKILLS_DATA = [
 			"Bitsy, GB Studio, Twine",
 			"Frontend web development tools and frameworks (React, TypeScript, Tailwind, Next.js, Firebase, SQL, HTML, CSS, JavaScript)",
 			"Cypress, Playwright, Postman, Gherkin, JIRA, Redmine, Mantis, TestRail, Xcode, Sourcetree, GitHub",
+			"SONY, Microsoft and Nintendo submission requirements and certification processes (bug writing standards, certification documentation, debug and development tools)",
 			"Figma, Confluence, Trello, Notion, MS Office (advanced Excel knowledge)",
 		],
 		isListItem: true,

@@ -258,7 +258,7 @@ export const EXPERIENCE_WORK_KWS_DATA = [
 		company: "FQA Lead / Keywords Studios",
 		date: "(July 2019 - December 2019)",
 		description: [
-			"Won a pilot with a team of 3 testers, ultimately growing it to a team of 40+ and released a game to favorable reviews (Outriders: Worlslayer)",
+			"Won a pilot with a team of 3 testers, ultimately growing it to a team of 40+ and released a game to favorable reviews (Outriders: Worldslayer)",
 			"Worked with Team17 publisher QA to release Ageless and perform live QA on Golf with Your Friends while transitioning to remote testing and WFH model",
 			"Leading Functional QA projects on all major platforms, coordinating and mentoring teams, providing clients with project reports and other project-related documentation, communicating with clients and answering clients' queries, preparing long-term plans and schedules, preparing guidelines and internal project documentation",
 			"Administrative tasks: scheduling for the upcoming and ongoing projects, evaluating teams and individual performances, conducting job interviews",

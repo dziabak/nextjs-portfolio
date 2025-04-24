@@ -89,7 +89,7 @@ export const PERSONAL_PROJECTS_DATA = [
 		id: "8",
 		title: "DESTINY ZERO",
 		description:
-			"Top-down shooter fan game set in Destiny universe amassing over 22 000 views on itch.io",
+			"Top-down shooter fan game set in Destiny universe amassing over 23 000 views on itch.io",
 		icon: "dzero-logo.png",
 		alt: "DESTINY ZERO logo",
 		link: "https://gdd.itch.io/destiny-zero",
@@ -175,8 +175,8 @@ export const EXPERIENCE_DATA = [
 		company: "Keywords Studios",
 		date: "(2019 - 2023)",
 		description: [
-			"Only a month after the FQA office was opened in Katowice, I joined the team of around 40 testers and throughout 4 years I’ve helped to build our location to become one of the largest FQA video game outsource studios in Europe.",
-			"I’ve worked on numerous high-profile projects, such as THE FINALS, Outriders: Worldslayer or The Medium.",
+			"Only a month after the FQA office was opened in Katowice, I joined the team of around 40 testers and throughout 4 years I've helped to build our location to become one of the largest FQA video game outsource studios in Europe.",
+			"I've worked on numerous high-profile projects, such as THE FINALS, Outriders: Worldslayer or The Medium.",
 		],
 		isListItem: false,
 	},
@@ -185,7 +185,7 @@ export const EXPERIENCE_DATA = [
 		company: "Jujubee S.A.",
 		date: "(2017 - 2019)",
 		description: [
-			"During my time at the studio I’ve worked on three projects: Truck Simulation 19, Deep Diving Simulator and Take Off: The Flight Simulator.",
+			"During my time at the studio I've worked on three projects: Truck Simulation 19, Deep Diving Simulator and Take Off: The Flight Simulator.",
 			"As a Game Designer I was able to work on variety of features and areas of the projects - from typical game design work, all the way until post-release support - even porting studio's previous title.",
 			"As my standout role at the studio, I was working as a UI and UX designer on all of my projects. Working alongside UI artist and UI programmer, this was the epxerience which later turned into my interest in frontend development.",
 		],
@@ -212,6 +212,7 @@ export const EXPERIENCE_TECHNICAL_SKILLS_DATA = [
 			"Unity (with C#), Game Maker Studio 2 (GML), Unreal Engine (Blueprints)",
 			"Bitsy, GB Studio, Twine",
 			"Frontend web development tools and frameworks (React, TypeScript, Tailwind, Next.js, Firebase, SQL, HTML, CSS, JavaScript)",
+			"Python",
 			"Cypress, Playwright, Postman, Gherkin, JIRA, Redmine, Mantis, TestRail, Xcode, Sourcetree, GitHub",
 			"SONY, Microsoft and Nintendo submission requirements and certification processes (bug writing standards, certification documentation, debug and development tools)",
 			"Figma, Confluence, Trello, Notion, MS Office (advanced Excel knowledge)",
@@ -234,7 +235,8 @@ export const EXPERIENCE_WORK_KWS_DATA = [
 		id: "2",
 		company: "QA Project Manager / Keywords Studios",
 		date: "(July 2022 - July 2023)",
-		description: ["Reworked data-gathering workflow and cut down the smoke testing and walkthrough times during a vertical slice phase of the project",
+		description: [
+			"Reworked data-gathering workflow and cut down the smoke testing and walkthrough times during a vertical slice phase of the project",
 			"Line-managed a team of 3 leads and 5 senior testers to accommodate 4 different concurrent projects",
 			"Working closely with developers to prepare and execute testing plans, high-level client communication and project scheduling, overlooking and assisting multiple testing teams and projects, preparing quotes, spend reports, invoices and business reports",
 			"Projects credited: THE FINALS, Harold Halibut",
@@ -258,7 +260,7 @@ export const EXPERIENCE_WORK_KWS_DATA = [
 		description: [
 			"Won a pilot with a team of 3 testers, ultimately growing it to a team of 40+ and released a game to favorable reviews (Outriders: Worlslayer)",
 			"Worked with Team17 publisher QA to release Ageless and perform live QA on Golf with Your Friends while transitioning to remote testing and WFH model",
-			"Leading Functional QA projects on all major platforms, coordinating and mentoring teams, providing clients with project reports and other project-related documentation, communicating with clients and answering clients’ queries, preparing long-term plans and schedules, preparing guidelines and internal project documentation",
+			"Leading Functional QA projects on all major platforms, coordinating and mentoring teams, providing clients with project reports and other project-related documentation, communicating with clients and answering clients' queries, preparing long-term plans and schedules, preparing guidelines and internal project documentation",
 			"Administrative tasks: scheduling for the upcoming and ongoing projects, evaluating teams and individual performances, conducting job interviews",
 			"Projects credited: Outriders: Worldslayer, The Medium, Golf with Your Friends, Topgolf Mobile App",
 		],
@@ -321,7 +323,7 @@ export const EXPERIENCE_EDUCATION_DATA = [
 		company: "Uniwersytet Śląski w Katowicach",
 		date: "(October 2012 - November 2017)",
 		description: [
-			"Master’s Degree in English Studies, specialization: Interactive Entertainment Design and Game and Software Localization",
+			"Master's Degree in English Studies, specialization: Interactive Entertainment Design and Game and Software Localization",
 			"Thesis: ''The new worlds of narration: Models for narrative-driven design of contemporary exploration adventure games''",
 		],
 		isListItem: true,
@@ -332,14 +334,14 @@ export const HERO_SECTIONS_DATA = [
 	{
 		id: "20",
 		title: "🎮 GAME DESIGN AND QA",
-		description: "Projects I’ve worked on in Jujubee, Planetary and Keywords",
+		description: "Projects I've worked on in Jujubee, Planetary and Keywords",
 		link: "/gamedev",
 	},
 	{
 		id: "21",
-		title: "💻 FRONTEND DEVELOPMENT",
+		title: "💻 FRONTEND AND SOFTWARE",
 		description: "Personal projects in React, Next.js and TypeScript",
-		link: "/frontend",
+		link: "/software",
 	},
 	// {
 	// 	id: "22",

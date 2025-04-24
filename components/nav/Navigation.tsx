@@ -13,13 +13,13 @@ const Navigation = () => {
 				<NavigationLink
 					href="/gamedev"
 					text={
-						<span>	
+						<span>
 							<span className="md:hidden">Game Design/QA</span>
 							<span className="hidden md:inline">Game Design and QA</span>
 						</span>
 					}
 				/>
-				<NavigationLink href="/frontend" text="Frontend" />
+				<NavigationLink href="/software" text="Software" />
 				<NavigationLink href="/projects" text="Projects" />
 				<NavigationLink href="/experience" text="Experience" />
 			</div>

@@ -215,7 +215,7 @@ export const EXPERIENCE_TECHNICAL_SKILLS_DATA = [
 			"Python",
 			"Cypress, Playwright, Postman, Gherkin, JIRA, Redmine, Mantis, TestRail, Xcode, Sourcetree, GitHub",
 			"SONY, Microsoft and Nintendo submission requirements and certification processes (bug writing standards, certification documentation, debug and development tools)",
-			"Figma, Confluence, Trello, Notion, MS Office (advanced Excel knowledge)",
+			"Figma, Confluence, Trello, Notion, MS Office (advanced Excel knowledge), Power BI and Power Automate",
 		],
 		isListItem: true,
 	},
